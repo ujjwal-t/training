@@ -1,0 +1,4053 @@
+Script started on 2023-05-10 12:33:58+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="86" LINES="14"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1[00m$ ls
+[?2004l[0m[01;34mshell-lesson-data[0m
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1[00m$ ks
+[?2004lks: command not found
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1[00m$ [K]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1[00m$ [K]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1[00m$ [K]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1[00m$ pwd
+[?2004l/home/ujjwal/tiger_assignments/module_1
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1[00m$ ls -F
+[?2004l[0m[01;34mshell-lesson-data[0m/
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1[00m$ ls h[K--help
+[?2004lUsage: ls [OPTION]... [FILE]...
+List information about the FILEs (the current directory by default).
+Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --all                  do not ignore entries starting with .
+  -A, --almost-all           do not list implied . and ..
+      --author               with -l, print the author of each file
+  -b, --escape               print C-style escapes for nongraphic characters
+      --block-size=SIZE      with -l, scale sizes by SIZE when printing them;
+                               e.g., '--block-size=M'; see SIZE format below
+  -B, --ignore-backups       do not list implied entries ending with ~
+  -c                         with -lt: sort by, and show, ctime (time of last
+                               modification of file status information);
+                               with -l: show ctime and sort by name;
+                               otherwise: sort by ctime, newest first
+  -C                         list entries by columns
+      --color[=WHEN]         colorize the output; WHEN can be 'always' (default
+                               if omitted), 'auto', or 'never'; more info below
+  -d, --directory            list directories themselves, not their contents
+  -D, --dired                generate output designed for Emacs' dired mode
+  -f                         do not sort, enable -aU, disable -ls --color
+  -F, --classify             append indicator (one of */=>@|) to entries
+      --file-type            likewise, except do not append '*'
+      --format=WORD          across -x, commas -m, horizontal -x, long -l,
+                               single-column -1, verbose -l, vertical -C
+      --full-time            like -l --time-style=full-iso
+  -g                         like -l, but do not list owner
+      --group-directories-first
+                             group directories before files;
+                               can be augmented with a --sort option, but any
+                               use of --sort=none (-U) disables grouping
+  -G, --no-group             in a long listing, don't print group names
+  -h, --human-readable       with -l and -s, print sizes like 1K 234M 2G etc.
+      --si                   likewise, but use powers of 1000 not 1024
+  -H, --dereference-command-line
+                             follow symbolic links listed on the command line
+      --dereference-command-line-symlink-to-dir
+                             follow each command line symbolic link
+                               that points to a directory
+      --hide=PATTERN         do not list implied entries matching shell PATTERN
+                               (overridden by -a or -A)
+      --hyperlink[=WHEN]     hyperlink file names; WHEN can be 'always'
+                               (default if omitted), 'auto', or 'never'
+      --indicator-style=WORD  append indicator with style WORD to entry names:
+                               none (default), slash (-p),
+                               file-type (--file-type), classify (-F)
+  -i, --inode                print the index number of each file
+  -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN
+  -k, --kibibytes            default to 1024-byte blocks for disk usage;
+                               used only with -s and per directory totals
+  -l                         use a long listing format
+  -L, --dereference          when showing file information for a symbolic
+                               link, show information for the file the link
+                               references rather than for the link itself
+  -m                         fill width with a comma separated list of entries
+  -n, --numeric-uid-gid      like -l, but list numeric user and group IDs
+  -N, --literal              print entry names without quoting
+  -o                         like -l, but do not list group information
+  -p, --indicator-style=slash
+                             append / indicator to directories
+  -q, --hide-control-chars   print ? instead of nongraphic characters
+      --show-control-chars   show nongraphic characters as-is (the default,
+                               unless program is 'ls' and output is a terminal)
+  -Q, --quote-name           enclose entry names in double quotes
+      --quoting-style=WORD   use quoting style WORD for entry names:
+                               literal, locale, shell, shell-always,
+                               shell-escape, shell-escape-always, c, escape
+                               (overrides QUOTING_STYLE environment variable)
+  -r, --reverse              reverse order while sorting
+  -R, --recursive            list subdirectories recursively
+  -s, --size                 print the allocated size of each file, in blocks
+  -S                         sort by file size, largest first
+      --sort=WORD            sort by WORD instead of name: none (-U), size (-S),
+                               time (-t), version (-v), extension (-X)
+      --time=WORD            change the default of using modification times;
+                               access time (-u): atime, access, use;
+                               change time (-c): ctime, status;
+                               birth time: birth, creation;
+                             with -l, WORD determines which time to show;
+                             with --sort=time, sort by WORD (newest first)
+      --time-style=TIME_STYLE  time/date format with -l; see TIME_STYLE below
+  -t                         sort by time, newest first; see --time
+  -T, --tabsize=COLS         assume tab stops at each COLS instead of 8
+  -u                         with -lt: sort by, and show, access time;
+                               with -l: show access time and sort by name;
+                               otherwise: sort by access time, newest first
+  -U                         do not sort; list entries in directory order
+  -v                         natural sort of (version) numbers within text
+  -w, --width=COLS           set output width to COLS.  0 means no limit
+  -x                         list entries by lines instead of by columns
+  -X                         sort alphabetically by entry extension
+  -Z, --context              print any security context of each file
+  -1                         list one file per line.  Avoid '\n' with -q or -b
+      --help     display this help and exit
+      --version  output version information and exit
+
+The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
+Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).
+Binary prefixes can be used, too: KiB=K, MiB=M, and so on.
+
+The TIME_STYLE argument can be full-iso, long-iso, iso, locale, or +FORMAT.
+FORMAT is interpreted like in date(1).  If FORMAT is FORMAT1<newline>FORMAT2,
+then FORMAT1 applies to non-recent files and FORMAT2 to recent files.
+TIME_STYLE prefixed with 'posix-' takes effect only outside the POSIX locale.
+Also the TIME_STYLE environment variable sets the default style to use.
+
+Using color to distinguish file types is disabled both by default and
+with --color=never.  With --color=auto, ls emits color codes only when
+standard output is connected to a terminal.  The LS_COLORS environment
+variable can change the settings.  Use the dircolors command to set it.
+
+Exit status:
+ 0  if OK,
+ 1  if minor problems (e.g., cannot access subdirectory),
+ 2  if serious trouble (e.g., cannot access command-line argument).
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/ls>
+or available locally via: info '(coreutils) ls invocation'
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1[00m$ man ls
+[?2004l[?1049h[22;0;0t[?1h=LS(1)                              User Commands                              LS(1)[m
+[m
+[1mNAME[0m[m
+       ls - list directory contents[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       List  information  about the FILEs (the current directory by default).  Sort[m
+[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1[00m$ ls -l4[K
+[?2004ltotal 4
+drwxr-xr-x 4 ujjwal ujjwal 4096 May 10 12:32 [0m[01;34mshell-lesson-data[0m
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1[00m$ ls -l -h
+[?2004ltotal 4.0K
+drwxr-xr-x 4 ujjwal ujjwal 4.0K May 10 12:32 [0m[01;34mshell-lesson-data[0m
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1[00m$ ls -F shell-lesson-data/
+[?2004l[0m[01;34mexercise-data[0m/  [01;34mnorth-pacific-gyre[0m/
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1[00m$ cd shell-lesson-data/exercise-data/
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ pwd
+[?2004l/home/ujjwal/tiger_assignments/module_1/shell-lesson-data/exercise-data
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ ls -F
+[?2004l[0m[01;34malkanes[0m/        [01;34mcreatures[0m/   numbers.txt:Zone.Identifier
+[01;34manimal-counts[0m/  numbers.txt  [01;34mwriting[0m/
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ cd ..
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data[00m$ ls -F -a
+[?2004l[0m[01;34m.[0m/  [01;34m..[0m/  [01;34mexercise-data[0m/  [01;34mnorth-pacific-gyre[0m/
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data[00m$ ls -d[Ks exercise-data/ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004ltotal 24
+4 [0m[01;34malkanes[0m        4 [01;34mcreatures[0m    4 numbers.txt:Zone.Identifier
+4 [01;34manimal-counts[0m  4 numbers.txt  4 [01;34mwriting[0m
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data[00m$ ls -F E[Kexercise-data/ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K/
+[?2004l[0m[01;34malkanes[0m/        [01;34mcreatures[0m/   numbers.txt:Zone.Identifier
+[01;34manimal-counts[0m/  numbers.txt  [01;34mwriting[0m/
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data[00m$ cd exercise-data/writing/
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ ls -F
+[?2004lLittleWomen.txt                  haiku.txt
+LittleWomen.txt:Zone.Identifier  haiku.txt:Zone.Identifier
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ mkdir thesis
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ ls -F
+[?2004lLittleWomen.txt                  haiku.txt                  [0m[01;34mthesis[0m/
+LittleWomen.txt:Zone.Identifier  haiku.txt:Zone.Identifier
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ mkdir -p ../project/data ../project [K/results
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ ls -FR ../project/
+[?2004l../project/:
+[0m[01;34mdata[0m/  [01;34mresults[0m/
+
+../project/data:
+
+../project/results:
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ cd thesis/
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing/thesis[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing/thesis[00m$ nana[Ko draft.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;11r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[9;38H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                           draft.txt                                    [1;85H(B[m[10d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[10;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[11d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;52H(B[0;7m*[85G(B[m[?12l[?25h[2dH[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[?12l[?25hw[?25l[?12l[?25ho[?25l[?12l[?25hl[?25l[?12l[?25hr[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hr[?25l[?12l[?25hl[?25l[?12l[?25hd[?25l[9d(B[0;7mSave modified buffer?                                                                 [10;1H Y(B[m Yes[K[11d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[9;23H[?12l[?25h[?25l[10d(B[0;7m^G(B[m Help[10;22H(B[0;7mM-D(B[m DOS Format[43G(B[0;7mM-A(B[m Append[10;64H(B[0;7mM-B(B[m Backup File[11d(B[0;7m^C(B[m Cancel[17G     (B[0;7mM-M(B[m Mac Format[43G(B[0;7mM-P(B[m Prepend[11;64H(B[0;7m^T(B[m Browse[9d(B[0;7mFile Name to Write: draft.txt(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l(B[0;7ma(B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l[36G[1K (B[0;7m[ Writing... ](B[m[K[1;52H(B[0;7m [85G(B[m[9;36H(B[0;7m[ Wrote 1 line ](B[m[J[11d[?12l[?25h[11;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing/thesis[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing/thesis[00m$ ls
+[?2004ldraft.txt
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing/thesis[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing/thesis[00m$ touch my_file.txt
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing/thesis[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing/thesis[00m$ rm fi[K[Kmy_file.txt 
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing/thesis[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing/thesis[00m$ cd [K[K[Kmv thesis[K[K[K[K[K[K[K[K[Kcd ..
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ mv thesis/draft.txt thesis/quotes.txt
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ ls thesis/
+[?2004lquotes.txt
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ mv thesis/quotes.txt .
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ ls thesis/
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ ls
+[?2004lLittleWomen.txt                  haiku.txt                  quotes.txt
+LittleWomen.txt:Zone.Identifier  haiku.txt:Zone.Identifier  [0m[01;34mthesis[0m
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ cd ..
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ ls
+[?2004l[0m[01;34malkanes[0m        [01;34mcreatures[0m    numbers.txt:Zone.Identifier  [01;34mwriting[0m
+[01;34manimal-counts[0m  numbers.txt  [01;34mproject[0m
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ cd writing/
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ cp qo[Kuotes.txt thesis/quotation.txt
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ ls thesis/quotation.txt [C[1@ [1@q[9@uotes.txt
+[?2004lquotes.txt  thesis/quotation.txt
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ cp -r thesis/ thesis/_/b/a/c/k/u/p/
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ rm quotes.txt 
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ ls quotes.xt[K[Ktxt
+[?2004lls: cannot access 'quotes.txt': No such file or directory
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ rm -r thesis
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ mkdir backup
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ cd cr[K[K[K[K[Kcd ..
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ ls
+[?2004l[0m[01;34malkanes[0m        [01;34mcreatures[0m    numbers.txt:Zone.Identifier  [01;34mwriting[0m
+[01;34manimal-counts[0m  numbers.txt  [01;34mproject[0m
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ mkdir[K[K[K[K[Kcd writing/
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ rm -r backup/
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ cd ..
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ mkdir  backup
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ cp creatures/minotaur.dat creatures/unicorn.dat backup/
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ ls
+[?2004l[0m[01;34malkanes[0m        [01;34mbackup[0m     numbers.txt                  [01;34mproject[0m
+[01;34manimal-counts[0m  [01;34mcreatures[0m  numbers.txt:Zone.Identifier  [01;34mwriting[0m
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ ls -RF [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[KF
+[?2004l.:
+[0m[01;34malkanes[0m/        [01;34mbackup[0m/     numbers.txt                  [01;34mproject[0m/
+[01;34manimal-counts[0m/  [01;34mcreatures[0m/  numbers.txt:Zone.Identifier  [01;34mwriting[0m/
+
+./alkanes:
+cubane.pdb                  methane.pdb                  pentane.pdb
+cubane.pdb:Zone.Identifier  methane.pdb:Zone.Identifier  pentane.pdb:Zone.Identifier
+ethane.pdb                  octane.pdb                   propane.pdb
+ethane.pdb:Zone.Identifier  octane.pdb:Zone.Identifier   propane.pdb:Zone.Identifier
+
+./animal-counts:
+animals.csv  animals.csv:Zone.Identifier
+
+./backup:
+minotaur.dat  unicorn.dat
+
+./creatures:
+basilisk.dat                  minotaur.dat:Zone.Identifier
+basilisk.dat:Zone.Identifier  unicorn.dat
+minotaur.dat                  unicorn.dat:Zone.Identifier
+
+./project:
+[01;34mdata[0m/  [01;34mresults[0m/
+
+./project/data:
+
+./project/results:
+
+./writing:
+LittleWomen.txt                  haiku.txt                  [01;34mthesis_backup[0m/
+LittleWomen.txt:Zone.Identifier  haiku.txt:Zone.Identifier
+
+./writing/thesis_backup:
+quotation.txt
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ cd alkanes/
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ ls
+[?2004lcubane.pdb                  methane.pdb                  pentane.pdb
+cubane.pdb:Zone.Identifier  methane.pdb:Zone.Identifier  pentane.pdb:Zone.Identifier
+ethane.pdb                  octane.pdb                   propane.pdb
+ethane.pdb:Zone.Identifier  octane.pdb:Zone.Identifier   propane.pdb:Zone.Identifier
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ wc cubane.pdb
+[?2004l  20  156 1158 cubane.pdb
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ wc *.pdb
+[?2004l  20  156 1158 cubane.pdb
+  12   84  622 ethane.pdb
+   9   57  422 methane.pdb
+  30  246 1828 octane.pdb
+  21  165 1226 pentane.pdb
+  15  111  825 propane.pdb
+ 107  819 6081 total
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ wc -l *.pdb > lengths.txt
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ ls lengths.txt 
+[?2004llengths.txt
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ sort -n lengths.txt 
+[?2004l   9 methane.pdb
+  12 ethane.pdb
+  15 propane.pdb
+  20 cubane.pdb
+  21 pentane.pdb
+  30 octane.pdb
+ 107 total
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ sort -n lengths.txt > soted[K[K[Krted-lenghts[K[K[Kths.txt
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ head -n 1 sorted-lengths.txt 
+[?2004l   9 methane.pdb
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ sort -n ;[Klengths.txt .[K| head -n 1
+[?2004l   9 methane.pdb
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ wc -l 8[K*.pdb | sort -n
+[?2004l   9 methane.pdb
+  12 ethane.pdb
+  15 propane.pdb
+  20 cubane.pdb
+  21 pentane.pdb
+  30 octane.pdb
+ 107 total
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ cd ../no[K[K[K[K[Kn[K[K[K[Kls
+[?2004lcubane.pdb                  methane.pdb                  pentane.pdb:Zone.Identifier
+cubane.pdb:Zone.Identifier  methane.pdb:Zone.Identifier  propane.pdb
+ethane.pdb                  octane.pdb                   propane.pdb:Zone.Identifier
+ethane.pdb:Zone.Identifier  octane.pdb:Zone.Identifier   sorted-lengths.txt
+lengths.txt                 pentane.pdb
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ cd ..
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ ls
+[?2004l[0m[01;34malkanes[0m        [01;34mbackup[0m     numbers.txt                  [01;34mproject[0m
+[01;34manimal-counts[0m  [01;34mcreatures[0m  numbers.txt:Zone.Identifier  [01;34mwriting[0m
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ ls -RF [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[KF
+[?2004l.:
+[0m[01;34malkanes[0m/        [01;34mbackup[0m/     numbers.txt                  [01;34mproject[0m/
+[01;34manimal-counts[0m/  [01;34mcreatures[0m/  numbers.txt:Zone.Identifier  [01;34mwriting[0m/
+
+./alkanes:
+cubane.pdb                  methane.pdb                  pentane.pdb:Zone.Identifier
+cubane.pdb:Zone.Identifier  methane.pdb:Zone.Identifier  propane.pdb
+ethane.pdb                  octane.pdb                   propane.pdb:Zone.Identifier
+ethane.pdb:Zone.Identifier  octane.pdb:Zone.Identifier   sorted-lengths.txt
+lengths.txt                 pentane.pdb
+
+./animal-counts:
+animals.csv  animals.csv:Zone.Identifier
+
+./backup:
+minotaur.dat  unicorn.dat
+
+./creatures:
+basilisk.dat                  minotaur.dat:Zone.Identifier
+basilisk.dat:Zone.Identifier  unicorn.dat
+minotaur.dat                  unicorn.dat:Zone.Identifier
+
+./project:
+[01;34mdata[0m/  [01;34mresults[0m/
+
+./project/data:
+
+./project/results:
+
+./writing:
+LittleWomen.txt                  haiku.txt                  [01;34mthesis_backup[0m/
+LittleWomen.txt:Zone.Identifier  haiku.txt:Zone.Identifier
+
+./writing/thesis_backup:
+quotation.txt
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ [K]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ [K]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ [K]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ l
+s
+[?2004l[0m[01;34malkanes[0m        [01;34mbackup[0m     numbers.txt                  [01;34mproject[0m
+[01;34manimal-counts[0m  [01;34mcreatures[0m  numbers.txt:Zone.Identifier  [01;34mwriting[0m
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ cat numbers.txt
+[?2004l10
+2
+19
+22
+6
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ cd creatures/
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/creatures[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/creatures[00m$ head -n 5 basilisk.dat minotaur.dat unicorn.dat
+[?2004l==> basilisk.dat <==
+COMMON NAME: basilisk
+CLASSIFICATION: basiliscus vulgaris
+UPDATED: 1745-05-02
+CCCCAACGAG
+GAAACAGATC
+
+==> minotaur.dat <==
+COMMON NAME: minotaur
+CLASSIFICATION: bos hominus
+UPDATED: 1765-02-17
+CCCGAAGGAC
+CGACATCTCT
+
+==> unicorn.dat <==
+COMMON NAME: unicorn
+CLASSIFICATION: equus monoceros
+UPDATED: 1738-11-24
+AGCCGGGTCG
+CTTTACCTTA
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/creatures[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/creatures[00m$ for filename in basilisk.dat minotaur.dat unicorn.dat
+[?2004l[?2004h> do 
+[?2004l[?2004h> [K> ^C[?2004l[?2004h
+[?2004l
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/creatures[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/creatures[00m$ for filename in basilisk.dat minotaur.dat unicorn.dat; do 0 [1P [1P [1P [K[1P 
+[?2004l[?2004h> do
+[?2004l[?2004h> [K> [K> echo $filename
+[?2004l[?2004h> head -n 2 $filename |tail -n 1
+[?2004l[?2004h> done
+[?2004lbasilisk.dat
+CLASSIFICATION: basiliscus vulgaris
+minotaur.dat
+CLASSIFICATION: bos hominus
+unicorn.dat
+CLASSIFICATION: equus monoceros
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/creatures[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/creatures[00m$ fo r[K[Kr temp in basilisk.dat minotaur.dat unicorn.dat
+[?2004l[?2004h> do head -n 2 $temp | tail -n 1
+[?2004l[?2004h> done
+[?2004lCLASSIFICATION: basiliscus vulgaris
+CLASSIFICATION: bos hominus
+CLASSIFICATION: equus monoceros
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/creatures[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/creatures[00m$ cd ../n[K[K[K[K[K[K[Kls ../
+[?2004l[0m[01;34malkanes[0m        [01;34mbackup[0m     numbers.txt                  [01;34mproject[0m
+[01;34manimal-counts[0m  [01;34mcreatures[0m  numbers.txt:Zone.Identifier  [01;34mwriting[0m
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/creatures[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/creatures[00m$ hostory[1Pstoryistory
+[?2004l    1  ls
+    2  ks
+    3  pwd
+    4  ls -F
+    5  ls --help
+    6  man ls
+    7  ls -l
+    8  ls -l -h
+    9  ls -F shell-lesson-data/
+   10  cd shell-lesson-data/exercise-data/
+   11  pwd
+   12  ls -F
+   13  cd ..
+   14  ls -F -a
+   15  ls -s exercise-data
+   16  ls -F exercise-data/
+   17  cd exercise-data/writing/
+   18  ls -F
+   19  mkdir thesis
+   20  ls -F
+   21  mkdir -p ../project/data ../project/results
+   22  ls -FR ../project/
+   23  cd thesis/
+   24  nano draft.txt
+   25  ls
+   26  touch my_file.txt
+   27  rm my_file.txt 
+   28  cd ..
+   29  mv thesis/draft.txt thesis/quotes.txt
+   30  ls thesis/
+   31  mv thesis/quotes.txt .
+   32  ls thesis/
+   33  ls
+   34  cd ..
+   35  ls
+   36  cd writing/
+   37  cp quotes.txt thesis/quotation.txt
+   38  ls quotes.txt thesis/quotation.txt 
+   39  cp -r thesis/ thesis_backup/
+   40  rm quotes.txt 
+   41  ls quotes.txt
+   42  rm -r thesis
+   43  mkdir backup
+   44  cd ..
+   45  ls
+   46  cd writing/
+   47  rm -r backup/
+   48  cd ..
+   49  mkdir backup
+   50  cp creatures/minotaur.dat creatures/unicorn.dat backup/
+   51  ls
+   52  ls -RF
+   53  cd alkanes/
+   54  ls
+   55  wc cubane.pdb
+   56  wc *.pdb
+   57  wc -l *.pdb > lengths.txt
+   58  ls lengths.txt 
+   59  sort -n lengths.txt 
+   60  sort -n lengths.txt > sorted-lengths.txt
+   61  head -n 1 sorted-lengths.txt 
+   62  sort -n lengths.txt | head -n 1
+   63  wc -l *.pdb | sort -n
+   64  ls
+   65  cd ..
+   66  ls
+   67  ls -RF
+   68  ls
+   69  cat numbers.txt
+   70  cd creatures/
+   71  head -n 5 basilisk.dat minotaur.dat unicorn.dat
+   72  for filename in basilisk.dat minotaur.dat unicorn.dat; do 
+   73  for filename in basilisk.dat minotaur.dat unicorn.dat ; do echo $filename; head -n 2 $filename |tail -n 1; done
+   74  for temp in basilisk.dat minotaur.dat unicorn.dat; do head -n 2 $temp | tail -n 1; done
+   75  ls ../
+   76  history
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/creatures[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/creatures[00m$ [A(reverse-i-search)`': [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/creatures[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/creatures[00m$ history[K[K[K[K[K[K[K[A(reverse-i-search)`': [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/creatures[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/creatures[00m$ 
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/creatures[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/creatures[00m$ cd ../ [Kalkanes/
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ nano middle.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;39r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[37;33H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                      middle.sh                               [1;75H(B[m[38d(B[0;7m^G(B[m Help[38;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[38;61H(B[0;7m^T(B[m Execute[39d(B[0;7m^X(B[m Exit[39;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2d[?12l[?25h[?25l[1;47H(B[0;7m*[75G(B[m[?12l[?25h[2dh[?25l[?12l[?25he[?25l[?12l[?25ha[?25l[?12l[?25h(B[0;1m[34mhead[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h 1[?25l[?12l[?25h5[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h o[?25l[?12l[?25hc[?25l[?12l[?25ht[?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25he[?25l[?12l[?25h.[?25l[?12l[?25hp[?25l[37d[K[?12l[?25h[2;20Hd[?25l[?12l[?25hb[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m|[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h t[?25l[?12l[?25ha[?25l[?12l[?25hi[?25l[?12l[?25h(B[0;1m[34mtail[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h 5[?25l[37d(B[0;7mSave modified buffer?                                                       [38;1H Y(B[m Yes[K[39d(B[0;7m N(B[m No  [39;16H (B[0;7m^C(B[m Cancel[K[37;23H[?12l[?25h[?25l[38d(B[0;7m^G(B[m Help[38;20H(B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append[38;58H(B[0;7mM-B(B[m Backup File[39d(B[0;7m^C(B[m Cancel[17G   (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend[39;58H(B[0;7m^T(B[m Browse[37d(B[0;7mFile Name to Write: middle.sh(B[m[?12l[?25h[?25l [1K (B[0;7m[ Cancelled ](B[m[K[38;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[58G   (B[0;7m^T(B[m Execute[K[39;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify[?12l[?25h[2;34H[?25l[3d[?12l[?25h[?25l[37d(B[0;7mSave modified buffer?                                                       [38;1H Y(B[m Yes[K[39d(B[0;7m N(B[m No  [39;16H (B[0;7m^C(B[m Cancel[K[37;23H[?12l[?25h[?25l[38d(B[0;7m^G(B[m Help[38;20H(B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append[38;58H(B[0;7mM-B(B[m Backup File[39d(B[0;7m^C(B[m Cancel[17G   (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend[39;58H(B[0;7m^T(B[m Browse[37d(B[0;7mFile Name to Write: middle.sh(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l [1K (B[0;7m[ Writing... ](B[m[K[1;47H(B[0;7m [75G(B[m[37;30H(B[0;7m[ Wrote 2 lines ](B[m[J[39d[?12l[?25h[39;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ bash middle.sh 
+[?2004lATOM      9  H           1      -4.502   0.681   0.785  1.00  0.00
+ATOM     10  H           1      -5.254  -0.243  -0.537  1.00  0.00
+ATOM     11  H           1      -4.357   1.252  -0.895  1.00  0.00
+ATOM     12  H           1      -3.009  -0.741  -1.467  1.00  0.00
+ATOM     13  H           1      -3.172  -1.337   0.206  1.00  0.00
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ nano middle.sh 
+[?2004l[?2004h[?1049h[22;0;0t[1;39r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[37;32H(B[0;7m[ Reading... ](B[m[37;31H(B[0;7m[ Read 2 lines ](B[m[H(B[0;7m  GNU nano 6.2                      middle.sh                               [1;75H(B[m[38d(B[0;7m^G(B[m Help[38;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[38;61H(B[0;7m^T(B[m Execute[39d(B[0;7m^X(B[m Exit[39;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2d(B[0;1m[34mhead[35m -n[39m(B[m 15 octane.pdb [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[?12l[?25h[?25l[?12l[?25h[?25l[1;47H(B[0;7m*[75G(B[m[?12l[?25h[2d0head(B[0;1m[35m -n[39m(B[m 15 octane.pdb [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 50[?25l[?12l[?25h(B[0;1m[34mhead[39m(B[m[1P[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h1[?25l[?12l[?25h5[?25l[?12l[?25h [?25l[?12l[?25ho[?25l[?12l[?25hc[?25l[?12l[?25ht[?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[37d[K[?12l[?25h[2;18H[?25l[?12l[?25h.[?25l[?12l[?25hp[?25l[?12l[?25hd[?25l[?12l[?25hb[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h" [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[2;13H[?25l[?12l[?25h(B[0;1m[33m""[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[2;14H[?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[33m$"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[2;14H[?25l[?12l[?25h(B[0;1m[33m1"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[2;15H[?25l[37d(B[0;7mSave modified buffer?                                                       [38;1H Y(B[m Yes[K[39d(B[0;7m N(B[m No  [39;16H (B[0;7m^C(B[m Cancel[K[37;23H[?12l[?25h[?25l[38d(B[0;7m^G(B[m Help[38;20H(B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append[38;58H(B[0;7mM-B(B[m Backup File[39d(B[0;7m^C(B[m Cancel[17G   (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend[39;58H(B[0;7m^T(B[m Browse[37d(B[0;7mFile Name to Write: middle.sh(B[m[?12l[?25h[?25l [1K (B[0;7m[ Writing... ](B[m[K[1;47H(B[0;7m [75G(B[m[37;30H(B[0;7m[ Wrote 2 lines ](B[m[J[39d[?12l[?25h[39;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ bash middle.sh pentane.pdb
+[?2004lATOM      9  H           1       1.324   0.350  -1.332  1.00  0.00
+ATOM     10  H           1       1.271   1.378   0.122  1.00  0.00
+ATOM     11  H           1      -0.074  -0.384   1.288  1.00  0.00
+ATOM     12  H           1      -0.048  -1.362  -0.205  1.00  0.00
+ATOM     13  H           1      -1.183   0.500  -1.412  1.00  0.00
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ bash middle.sh pentane.pdb 15 5
+[?2004lATOM      9  H           1       1.324   0.350  -1.332  1.00  0.00
+ATOM     10  H           1       1.271   1.378   0.122  1.00  0.00
+ATOM     11  H           1      -0.074  -0.384   1.288  1.00  0.00
+ATOM     12  H           1      -0.048  -1.362  -0.205  1.00  0.00
+ATOM     13  H           1      -1.183   0.500  -1.412  1.00  0.00
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ bash middle.sh pentane.pdb 15 5[1P 5[1P 52 50 5
+[?2004lATOM      9  H           1       1.324   0.350  -1.332  1.00  0.00
+ATOM     10  H           1       1.271   1.378   0.122  1.00  0.00
+ATOM     11  H           1      -0.074  -0.384   1.288  1.00  0.00
+ATOM     12  H           1      -0.048  -1.362  -0.205  1.00  0.00
+ATOM     13  H           1      -1.183   0.500  -1.412  1.00  0.00
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ nanbash middle.sh pentane.pdb 20 515[C[C[K[C[C[C[C[C[C[C[C[C[C[C[C[11Pnano middle.sh 
+[?2004l[?2004h[?1049h[22;0;0t[1;39r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[37;32H(B[0;7m[ Reading... ](B[m[37;31H(B[0;7m[ Read 2 lines ](B[m[H(B[0;7m  GNU nano 6.2                      middle.sh                               [1;75H(B[m[38d(B[0;7m^G(B[m Help[38;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[38;61H(B[0;7m^T(B[m Execute[39d(B[0;7m^X(B[m Exit[39;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2d(B[0;1m[34mhead[35m -n[39m(B[m 15 (B[0;1m[33m"$1"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h1[?25l[?12l[?25h5[?25l[?12l[?25h [?25l[?12l[?25h[?25l[1;47H(B[0;7m*[75G(B[m[?12l[?25h[2;10H[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h(B[0;1m[33m" "[31m$1[39m(B[m" [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[2;10H[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m (B[0;1m[33m"$1"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[2;11H[?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[33m$"[39m(B[m (B[0;1m[33m"$1"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[2;11H[?25l[?12l[?25h(B[0;1m[33m2"[39m(B[m (B[0;1m[33m"$1"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[2;12H[?25l[37d[K[?12l[?25h[2;13H[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h5[?25l[?12l[?25h[3d[?25l[?12l[?25h[2;30H[?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h "[?25l[?12l[?25h(B[0;1m[33m""[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[33m$"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m3"[39m(B[m[?25l"(B[0;1m[31m$3[39m(B[m[K[3d"[?12l[?25h[?25l[2;29H(B[0;1m[33m"$3"[3d[39m(B[m[K[2;32H[?12l[?25h[?25l[37d(B[0;7mSave modified buffer?                                                       [38;1H Y(B[m Yes[K[39d(B[0;7m N(B[m No  [39;16H (B[0;7m^C(B[m Cancel[K[37;23H[?12l[?25h[?25l[?12l[?25h[?25l[38d(B[0;7m^G(B[m Help[38;20H(B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append[38;58H(B[0;7mM-B(B[m Backup File[39d(B[0;7m^C(B[m Cancel[17G   (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend[39;58H(B[0;7m^T(B[m Browse[37d(B[0;7mFile Name to Write: middle.sh(B[m[?12l[?25h[?25l [1K (B[0;7m[ Writing... ](B[m[K[1;47H(B[0;7m [75G(B[m[37;30H(B[0;7m[ Wrote 2 lines ](B[m[J[39d[?12l[?25h[39;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ nano middle.sh [C[C[C[C[C[C[C[C[C[C[C[Cbash middle.sh pentane.pdb 20 5
+[?2004lATOM     14  H           1      -1.259   1.420   0.112  1.00  0.00
+ATOM     15  H           1      -2.608  -0.407   1.130  1.00  0.00
+ATOM     16  H           1      -2.540  -1.303  -0.404  1.00  0.00
+ATOM     17  H           1      -3.393   0.254  -0.321  1.00  0.00
+TER      18              1
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ bash middle.sh pentane.pdb 20 5[C[C[C[C[C[C[C[C[C[C[C[C[16Pnano middle.sh [C[C[C[C[C[C[C[C[C[C[C[Cbash middle.sh pentane.pdb 20 515[C[C
+[?2004lATOM      9  H           1       1.324   0.350  -1.332  1.00  0.00
+ATOM     10  H           1       1.271   1.378   0.122  1.00  0.00
+ATOM     11  H           1      -0.074  -0.384   1.288  1.00  0.00
+ATOM     12  H           1      -0.048  -1.362  -0.205  1.00  0.00
+ATOM     13  H           1      -1.183   0.500  -1.412  1.00  0.00
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ wc -l *.pdb | sort -n
+[?2004l   9 methane.pdb
+  12 ethane.pdb
+  15 propane.pdb
+  20 cubane.pdb
+  21 pentane.pdb
+  30 octane.pdb
+ 107 total
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ wc -l *.pdb | sort -n[C[C[C[C[C[C[C[C[C[C[C[Cbash middle.sh pentane.pdb 15 520[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pnano middle.sh 
+[?2004l[?2004h[?1049h[22;0;0t[1;39r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[37;32H(B[0;7m[ Reading... ](B[m[37;31H(B[0;7m[ Read 2 lines ](B[m[H(B[0;7m  GNU nano 6.2                      middle.sh                               [1;75H(B[m[38d(B[0;7m^G(B[m Help[38;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[38;61H(B[0;7m^T(B[m Execute[39d(B[0;7m^X(B[m Exit[39;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2d(B[0;1m[34mhead[35m -n[39m(B[m (B[0;1m[33m"$2"[39m(B[m (B[0;1m[33m"$1"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m (B[0;1m[33m"$3"[39m(B[m[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[37d[K[?12l[?25h[2;21H[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;47H(B[0;7m*[75G(B[m[3d[?12l[?25h[?25l[?12l[?25h[2;33H[?25l[?12l[?25h"(B[0;1m[31m$3[39m(B[m[K[?25l[?12l[?25h[32m$[39m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h -[K[?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25htai[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h"(B[0;1m[31m$1[39m(B[m[K[?25l[?12l[?25h[32m$[39m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h"(B[0;1m[31m$2[39m(B[m[K[?25l[?12l[?25h[32m$[39m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h -[K[?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25hhea[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25hw[?25l[?12l[?25hc[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -l[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h "[?25l[?12l[?25h(B[0;1m[33m""[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[2;9H[?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[33m@"[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[33m$@"[39m(B[m[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m|[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h s[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25h(B[0;1m[34msort[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m[?25l[3d[?12l[?25h[?25l[2;21H[?12l[?25h[?25l[?12l[?25h[?25l[37d(B[0;7mSave modified buffer?                                                       [38;1H Y(B[m Yes[K[39d(B[0;7m N(B[m No  [39;16H (B[0;7m^C(B[m Cancel[K[37;23H[?12l[?25h[?25l[?12l[?25h[?25l[38d(B[0;7m^G(B[m Help[38;20H(B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append[38;58H(B[0;7mM-B(B[m Backup File[39d(B[0;7m^C(B[m Cancel[17G   (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend[39;58H(B[0;7m^T(B[m Browse[37d(B[0;7mFile Name to Write: middle.sh(B[m[?12l[?25h[?25l [1K (B[0;7m[ Writing... ](B[m[K[1;47H(B[0;7m [75G(B[m[37;31H(B[0;7m[ Wrote 1 line ](B[m[J[39d[?12l[?25h[39;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ bash sorted-lengths.txt [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Knano middle.sh 
+[?2004l[?2004h[?1049h[22;0;0t[1;39r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[37;32H(B[0;7m[ Reading... ](B[m[37;31H(B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 6.2                      middle.sh                               [1;75H(B[m[38d(B[0;7m^G(B[m Help[38;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[38;61H(B[0;7m^T(B[m Execute[39d(B[0;7m^X(B[m Exit[39;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2dwc(B[0;1m[35m -l[39m(B[m (B[0;1m[33m"$@"[39m(B[m [32m|[39m(B[m (B[0;1m[34msort[35m -n[39m(B[m[?12l[?25h[?25l[?12l[?25hw[?25l[?12l[?25hc[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[37d[K[?12l[?25h[2;21H[?25l[?12l[?25h[3d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[2;21H[?25l[1;47H(B[0;7m*[75G(B[m[?12l[?25h[2;18H -[K[?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25hsor[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h"(B[0;1m[31m$@[39m(B[m[K[?25l[?12l[?25h[32m$[39m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h -[K[?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25h[?25l[?12l[?25hh[?25l[?12l[?25he[?25l[?12l[?25ha[?25l[?12l[?25h(B[0;1m[34mhead[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -l[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m:[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h "[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h - "[K[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m "[?25l[?12l[?25h [?25l[?12l[?25h"[?25l[?12l[?25h(B[0;1m[33m""[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[33m$"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m2"[39m(B[m[?25l[?12l[?25h[C[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h "[?25l[?12l[?25h(B[0;1m[33m""[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[33m$"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m1"[39m(B[m[?25l[?12l[?25h[C[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m|[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h t[?25l[?12l[?25ha[?25l[?12l[?25hi[?25l[?12l[?25h(B[0;1m[34mtail[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h "[?25l[?12l[?25h(B[0;1m[33m""[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[33m$"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m2"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m[K[?25l[?12l[?25h(B[0;1m[33m3"[39m(B[m[?25l[?12l[?25h[?25l[37d(B[0;7mSave modified buffer?                                                       [38;1H Y(B[m Yes[K[39d(B[0;7m N(B[m No  [39;16H (B[0;7m^C(B[m Cancel[K[37;23H[?12l[?25h[?25l[38d(B[0;7m^G(B[m Help[38;20H(B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append[38;58H(B[0;7mM-B(B[m Backup File[39d(B[0;7m^C(B[m Cancel[17G   (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend[39;58H(B[0;7m^T(B[m Browse[37d(B[0;7mFile Name to Write: middle.sh(B[m[?12l[?25h[?25l [1K (B[0;7m[ Writing... ](B[m[K[1;47H(B[0;7m [75G(B[m[37;31H(B[0;7m[ Wrote 1 line ](B[m[J[39d[?12l[?25h[39;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ nano sorted.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;39r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[37;33H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                      sorted.sh                               [1;75H(B[m[38d(B[0;7m^G(B[m Help[38;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[38;61H(B[0;7m^T(B[m Execute[39d(B[0;7m^X(B[m Exit[39;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2d[?12l[?25h[?25l[1;47H(B[0;7m*[75G(B[m[?12l[?25h[2dw[?25l[?12l[?25hc[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -l[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h "[?25l[?12l[?25h[32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$@[39m(B[m[?25l[?12l[?25h(B[0;1m[33m"$@"[39m(B[m[?25l[?12l[?25h0[?25l[?12l[?25h [?25l[?12l[?25h[3d[?25l[?12l[?25h[2;11H[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m|[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h s[?25l[?12l[?25ho[?25l[37d[K[?12l[?25h[2;16Hr[?25l[?12l[?25h(B[0;1m[34msort[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m[?25l[37d(B[0;7mSave modified buffer?                                                       [38;1H Y(B[m Yes[K[39d(B[0;7m N(B[m No  [39;16H (B[0;7m^C(B[m Cancel[K[37;23H[?12l[?25h[?25l[38d(B[0;7m^G(B[m Help[38;20H(B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append[38;58H(B[0;7mM-B(B[m Backup File[39d(B[0;7m^C(B[m Cancel[17G   (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend[39;58H(B[0;7m^T(B[m Browse[37d(B[0;7mFile Name to Write: sorted.sh(B[m[?12l[?25h[?25l [1K (B[0;7m[ Writing... ](B[m[K[1;47H(B[0;7m [75G(B[m[37;31H(B[0;7m[ Wrote 1 line ](B[m[J[39d[?12l[?25h[39;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ bac[Ksh sorted.sh *.pdb ../creatures/*.dat
+[?2004l    9 methane.pdb
+   12 ethane.pdb
+   15 propane.pdb
+   20 cubane.pdb
+   21 pentane.pdb
+   30 octane.pdb
+  163 ../creatures/basilisk.dat
+  163 ../creatures/minotaur.dat
+  163 ../creatures/unicorn.dat
+  596 total
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ history | tail -n 5 > redo-figure-3.sh
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/alkanes[00m$ cd ../writing/
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ cat haiku.txt
+[?2004lThe Tao that is seen
+Is not the true Tao, until
+You bring fresh toner.
+
+With searching comes loss
+and the presence of absence:
+"My Thesis" not found.
+
+Yesterday it worked
+Today it is not working
+Software is like that.
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ grep not haiku.txt
+[?2004lIs [01;31m[Knot[m[K the true Tao, until
+"My Thesis" [01;31m[Knot[m[K found.
+Today it is [01;31m[Knot[m[K working
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ grep The haiku.txt
+[?2004l[01;31m[KThe[m[K Tao that is seen
+"My [01;31m[KThe[m[Ksis" not found.
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ grep The haiku.txt[1P[1@t
+[?2004lIs not [01;31m[Kthe[m[K true Tao, until
+and [01;31m[Kthe[m[K presence of absence:
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ grep "[K-w The haiku.txt
+[?2004l[01;31m[KThe[m[K Tao that is seen
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ grep -n "it" haiku.txt
+[?2004l[32m[K5[m[K[36m[K:[m[KW[01;31m[Kit[m[Kh searching comes loss
+[32m[K9[m[K[36m[K:[m[KYesterday [01;31m[Kit[m[K worked
+[32m[K10[m[K[36m[K:[m[KToday [01;31m[Kit[m[K is not working
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ grep -n "it" haiku.txt[C[C[1@ [1@-[1@w
+[?2004l[32m[K9[m[K[36m[K:[m[KYesterday [01;31m[Kit[m[K worked
+[32m[K10[m[K[36m[K:[m[KToday [01;31m[Kit[m[K is not working
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ grep -n -w "it" haiku.txt[C[C[1P[1P[1P
+[?2004l[32m[K5[m[K[36m[K:[m[KW[01;31m[Kit[m[Kh searching comes loss
+[32m[K9[m[K[36m[K:[m[KYesterday [01;31m[Kit[m[K worked
+[32m[K10[m[K[36m[K:[m[KToday [01;31m[Kit[m[K is not working
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ grep -n "it" haiku.txt[C[1P[1P[1@t[1@h[1@e[C[1@ [1@-[1@w[C[1@ [1@-[1@i
+[?2004l[32m[K1[m[K[36m[K:[m[K[01;31m[KThe[m[K Tao that is seen
+[32m[K2[m[K[36m[K:[m[KIs not [01;31m[Kthe[m[K true Tao, until
+[32m[K6[m[K[36m[K:[m[Kand [01;31m[Kthe[m[K presence of absence:
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ grep -r Yesterday .
+[?2004l[35m[K./haiku.txt[m[K[36m[K:[m[K[01;31m[KYesterday[m[K it worked
+[35m[K./LittleWomen.txt[m[K[36m[K:[m[K"[01;31m[KYesterday[m[K, when Aunt was asleep and I was trying to be as still as a
+[35m[K./LittleWomen.txt[m[K[36m[K:[m[K[01;31m[KYesterday[m[K at dinner, when an Austrian officer stared at us and then
+[35m[K./LittleWomen.txt[m[K[36m[K:[m[K[01;31m[KYesterday[m[K was a quiet day spent in teaching, sewing, and writing in my
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ grep help
+[?2004l^C
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ grep help_help_help[1Phelp[1Phelp-help-help
+[?2004lUsage: grep [OPTION]... PATTERNS [FILE]...
+Search for PATTERNS in each FILE.
+Example: grep -i 'hello world' menu.h main.c
+PATTERNS can contain multiple patterns separated by newlines.
+
+Pattern selection and interpretation:
+  -E, --extended-regexp     PATTERNS are extended regular expressions
+  -F, --fixed-strings       PATTERNS are strings
+  -G, --basic-regexp        PATTERNS are basic regular expressions
+  -P, --perl-regexp         PATTERNS are Perl regular expressions
+  -e, --regexp=PATTERNS     use PATTERNS for matching
+  -f, --file=FILE           take PATTERNS from FILE
+  -i, --ignore-case         ignore case distinctions in patterns and data
+      --no-ignore-case      do not ignore case distinctions (default)
+  -w, --word-regexp         match only whole words
+  -x, --line-regexp         match only whole lines
+  -z, --null-data           a data line ends in 0 byte, not newline
+
+Miscellaneous:
+  -s, --no-messages         suppress error messages
+  -v, --invert-match        select non-matching lines
+  -V, --version             display version information and exit
+      --help                display this help text and exit
+
+Output control:
+  -m, --max-count=NUM       stop after NUM selected lines
+  -b, --byte-offset         print the byte offset with output lines
+  -n, --line-number         print line number with output lines
+      --line-buffered       flush output on every line
+  -H, --with-filename       print file name with output lines
+  -h, --no-filename         suppress the file name prefix on output
+      --label=LABEL         use LABEL as the standard input file name prefix
+  -o, --only-matching       show only nonempty parts of lines that match
+  -q, --quiet, --silent     suppress all normal output
+      --binary-files=TYPE   assume that binary files are TYPE;
+                            TYPE is 'binary', 'text', or 'without-match'
+  -a, --text                equivalent to --binary-files=text
+  -I                        equivalent to --binary-files=without-match
+  -d, --directories=ACTION  how to handle directories;
+                            ACTION is 'read', 'recurse', or 'skip'
+  -D, --devices=ACTION      how to handle devices, FIFOs and sockets;
+                            ACTION is 'read' or 'skip'
+  -r, --recursive           like --directories=recurse
+  -R, --dereference-recursive  likewise, but follow all symlinks
+      --include=GLOB        search only files that match GLOB (a file pattern)
+      --exclude=GLOB        skip files that match GLOB
+      --exclude-from=FILE   skip files that match any file pattern from FILE
+      --exclude-dir=GLOB    skip directories that match GLOB
+  -L, --files-without-match  print only names of FILEs with no selected lines
+  -l, --files-with-matches  print only names of FILEs with selected lines
+  -c, --count               print only a count of selected lines per FILE
+  -T, --initial-tab         make tabs line up (if needed)
+  -Z, --null                print 0 byte after FILE name
+
+Context control:
+  -B, --before-context=NUM  print NUM lines of leading context
+  -A, --after-context=NUM   print NUM lines of trailing context
+  -C, --context=NUM         print NUM lines of output context
+  -NUM                      same as --context=NUM
+      --group-separator=SEP  print SEP on line between matches with context
+      --no-group-separator  do not print separator for matches with context
+      --color[=WHEN],
+      --colour[=WHEN]       use markers to highlight the matching strings;
+                            WHEN is 'always', 'never', or 'auto'
+  -U, --binary              do not strip CR characters at EOL (MSDOS/Windows)
+
+When FILE is '-', read standard input.  With no FILE, read '.' if
+recursive, '-' otherwise.  With fewer than two FILEs, assume -h.
+Exit status is 0 if any line is selected, 1 otherwise;
+if any error occurs and -q is not given, the exit status is 2.
+
+Report bugs to: bug-grep@gnu.org
+GNU grep home page: <https://www.gnu.org/software/grep/>
+General help using GNU software: <https://www.gnu.org/gethelp/>
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ find .
+[?2004l.
+./haiku.txt
+./haiku.txt:Zone.Identifier
+./LittleWomen.txt
+./LittleWomen.txt:Zone.Identifier
+./thesis_backup
+./thesis_backup/quotation.txt
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data/writing[00m$ cd ..
+[?2004l[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ cd ..find .
+[?2004l.
+./writing
+./writing/haiku.txt
+./writing/haiku.txt:Zone.Identifier
+./writing/LittleWomen.txt
+./writing/LittleWomen.txt:Zone.Identifier
+./writing/thesis_backup
+./writing/thesis_backup/quotation.txt
+./backup
+./backup/unicorn.dat
+./backup/minotaur.dat
+./animal-counts
+./animal-counts/animals.csv:Zone.Identifier
+./animal-counts/animals.csv
+./numbers.txt
+./numbers.txt:Zone.Identifier
+./creatures
+./creatures/basilisk.dat
+./creatures/minotaur.dat:Zone.Identifier
+./creatures/unicorn.dat
+./creatures/minotaur.dat
+./creatures/basilisk.dat:Zone.Identifier
+./creatures/unicorn.dat:Zone.Identifier
+./project
+./project/data
+./project/results
+./alkanes
+./alkanes/sorted-lengths.txt
+./alkanes/octane.pdb:Zone.Identifier
+./alkanes/sorted.sh
+./alkanes/pentane.pdb:Zone.Identifier
+./alkanes/lengths.txt
+./alkanes/redo-figure-3.sh
+./alkanes/propane.pdb:Zone.Identifier
+./alkanes/methane.pdb
+./alkanes/propane.pdb
+./alkanes/octane.pdb
+./alkanes/cubane.pdb:Zone.Identifier
+./alkanes/ethane.pdb:Zone.Identifier
+./alkanes/middle.sh
+./alkanes/methane.pdb:Zone.Identifier
+./alkanes/ethane.pdb
+./alkanes/cubane.pdb
+./alkanes/pentane.pdb
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ find . -type d
+[?2004l.
+./writing
+./writing/thesis_backup
+./backup
+./animal-counts
+./creatures
+./project
+./project/data
+./project/results
+./alkanes
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ find . -type f
+[?2004l./writing/haiku.txt
+./writing/haiku.txt:Zone.Identifier
+./writing/LittleWomen.txt
+./writing/LittleWomen.txt:Zone.Identifier
+./writing/thesis_backup/quotation.txt
+./backup/unicorn.dat
+./backup/minotaur.dat
+./animal-counts/animals.csv:Zone.Identifier
+./animal-counts/animals.csv
+./numbers.txt
+./numbers.txt:Zone.Identifier
+./creatures/basilisk.dat
+./creatures/minotaur.dat:Zone.Identifier
+./creatures/unicorn.dat
+./creatures/minotaur.dat
+./creatures/basilisk.dat:Zone.Identifier
+./creatures/unicorn.dat:Zone.Identifier
+./alkanes/sorted-lengths.txt
+./alkanes/octane.pdb:Zone.Identifier
+./alkanes/sorted.sh
+./alkanes/pentane.pdb:Zone.Identifier
+./alkanes/lengths.txt
+./alkanes/redo-figure-3.sh
+./alkanes/propane.pdb:Zone.Identifier
+./alkanes/methane.pdb
+./alkanes/propane.pdb
+./alkanes/octane.pdb
+./alkanes/cubane.pdb:Zone.Identifier
+./alkanes/ethane.pdb:Zone.Identifier
+./alkanes/middle.sh
+./alkanes/methane.pdb:Zone.Identifier
+./alkanes/ethane.pdb
+./alkanes/cubane.pdb
+./alkanes/pentane.pdb
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ find . -name *.txt
+[?2004l./numbers.txt
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ find . -name "*.txt"
+[?2004l./writing/haiku.txt
+./writing/LittleWomen.txt
+./writing/thesis_backup/quotation.txt
+./numbers.txt
+./alkanes/sorted-lengths.txt
+./alkanes/lengths.txt
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ wc -l $(find . -name "*.txt")
+[?2004l     11 ./writing/haiku.txt
+  21022 ./writing/LittleWomen.txt
+      1 ./writing/thesis_backup/quotation.txt
+      5 ./numbers.txt
+      7 ./alkanes/sorted-lengths.txt
+      7 ./alkanes/lengths.txt
+  21053 total
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ wc -l ./writing/LittleWomen.txt ,[K./writing/haiku.txt ./numbers.txt
+[?2004l  21022 ./writing/LittleWomen.txt
+     11 ./writing/haiku.txt
+      5 ./numbers.txt
+  21038 total
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ grep "searching" $(find . -name "*.txt")
+[?2004l[35m[K./writing/haiku.txt[m[K[36m[K:[m[KWith [01;31m[Ksearching[m[K comes loss
+[35m[K./writing/LittleWomen.txt[m[K[36m[K:[m[Ksitting on the top step, affected to be [01;31m[Ksearching[m[K for her book, but was
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1/shell-lesson-data/exercise-data[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1/shell-lesson-data/exercise-data[00m$ exit
+[?2004lexit
+
+Script done on 2023-05-10 15:41:24+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2023-05-12 07:59:43+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h(base) ]0;ujjwal@TIGER03687: ~[01;32mujjwal@TIGER03687[00m:[01;34m~[00m$ conda --version
+[?2004lconda 23.3.1
+[?2004h(base) ]0;ujjwal@TIGER03687: ~[01;32mujjwal@TIGER03687[00m:[01;34m~[00m$ [K(base) ]0;ujjwal@TIGER03687: ~[01;32mujjwal@TIGER03687[00m:[01;34m~[00m$ conda update conda
+[?2004lCollecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - done
+Solving environment: | / - \ | / - \ | / - \ | / - \ | / - done
+
+## Package Plan ##
+
+  environment location: /home/ujjwal/miniconda3
+
+  added / updated specs:
+    - conda
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    libffi-3.4.4               |       h6a678d5_0         142 KB
+    requests-2.29.0            |  py310h06a4308_0          97 KB
+    sqlite-3.41.2              |       h5eee18b_0         1.2 MB
+    xz-5.4.2                   |       h5eee18b_0         642 KB
+    ------------------------------------------------------------
+                                           Total:         2.0 MB
+
+The following packages will be UPDATED:
+
+  libffi                                   3.4.2-h6a678d5_6 --> 3.4.4-h6a678d5_0 
+  requests                           2.28.1-py310h06a4308_1 --> 2.29.0-py310h06a4308_0 
+  sqlite                                  3.41.1-h5eee18b_0 --> 3.41.2-h5eee18b_0 
+  xz                                      5.2.10-h5eee18b_1 --> 5.4.2-h5eee18b_0 
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+xz-5.4.2             | 642 KB    |                                   |   0% 
+sqlite-3.41.2        | 1.2 MB    |                                   |   0% [A
+
+libffi-3.4.4         | 142 KB    |                                   |   0% [A[A
+
+
+requests-2.29.0      | 97 KB     |                                   |   0% [A[A[A
+sqlite-3.41.2        | 1.2 MB    | 4                                 |   1% [A
+
+libffi-3.4.4         | 142 KB    | ###7                              |  11% [A[Axz-5.4.2             | 642 KB    | 8                                 |   2% 
+sqlite-3.41.2        | 1.2 MB    | ########3                         |  25% [A
+
+
+requests-2.29.0      | 97 KB     | #####4                            |  17% [A[A[A
+
+libffi-3.4.4         | 142 KB    | ##############8                   |  45% [A[A
+sqlite-3.41.2        | 1.2 MB    | ######################8           |  69% [A
+
+
+requests-2.29.0      | 97 KB     | ##########9                       |  33% [A[A[A
+
+
+requests-2.29.0      | 97 KB     | ################################# | 100% [A[A[A
+
+
+requests-2.29.0      | 97 KB     | ################################# | 100% [A[A[A
+sqlite-3.41.2        | 1.2 MB    | ################################# | 100% [A
+sqlite-3.41.2        | 1.2 MB    | ################################# | 100% [A
+
+libffi-3.4.4         | 142 KB    | ################################# | 100% [A[A
+
+libffi-3.4.4         | 142 KB    | ################################# | 100% [A[Axz-5.4.2             | 642 KB    | ##4                               |   7% xz-5.4.2             | 642 KB    | ####9                             |  15% xz-5.4.2             | 642 KB    | ########2                         |  25% xz-5.4.2             | 642 KB    | #############1                    |  40% xz-5.4.2             | 642 KB    | ####################5             |  62% xz-5.4.2             | 642 KB    | #############################6    |  90% xz-5.4.2             | 642 KB    | ################################# | 100%                                                                             
+                                                                            [A
+
+                                                                            [A[A
+
+
+                                                                            [A[A[A
+Preparing transaction: | done
+Verifying transaction: - done
+Executing transaction: | done
+[?2004h(base) ]0;ujjwal@TIGER03687: ~[01;32mujjwal@TIGER03687[00m:[01;34m~[00m$ conda create --name snowflakes biopython
+[?2004lCollecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | done
+Solving environment: - \ | / done
+
+## Package Plan ##
+
+  environment location: /home/ujjwal/miniconda3/envs/snowflakes
+
+  added / updated specs:
+    - biopython
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    biopython-1.78             |  py311h5eee18b_0         2.7 MB
+    blas-1.0                   |              mkl           6 KB
+    intel-openmp-2023.1.0      |   hdb19cb5_46305        17.1 MB
+    mkl-2023.1.0               |   h6d00ec8_46342       171.5 MB
+    mkl-service-2.4.0          |  py311h5eee18b_1          54 KB
+    mkl_fft-1.3.6              |  py311ha02d727_1         217 KB
+    mkl_random-1.2.2           |  py311ha02d727_1         291 KB
+    numpy-1.24.3               |  py311h08b1b3b_1          11 KB
+    numpy-base-1.24.3          |  py311hf175353_1         7.2 MB
+    pip-23.0.1                 |  py311h06a4308_0         2.8 MB
+    python-3.11.3              |       h7a1cb2a_0        32.6 MB
+    setuptools-66.0.0          |  py311h06a4308_0         1.6 MB
+    tbb-2021.8.0               |       hdb19cb5_0         1.6 MB
+    wheel-0.38.4               |  py311h06a4308_0          79 KB
+    ------------------------------------------------------------
+                                           Total:       237.8 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main 
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu 
+  biopython          pkgs/main/linux-64::biopython-1.78-py311h5eee18b_0 
+  blas               pkgs/main/linux-64::blas-1.0-mkl 
+  bzip2              pkgs/main/linux-64::bzip2-1.0.8-h7b6447c_0 
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2023.01.10-h06a4308_0 
+  intel-openmp       pkgs/main/linux-64::intel-openmp-2023.1.0-hdb19cb5_46305 
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.38-h1181459_1 
+  libffi             pkgs/main/linux-64::libffi-3.4.4-h6a678d5_0 
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1 
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1 
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1 
+  libuuid            pkgs/main/linux-64::libuuid-1.41.5-h5eee18b_0 
+  mkl                pkgs/main/linux-64::mkl-2023.1.0-h6d00ec8_46342 
+  mkl-service        pkgs/main/linux-64::mkl-service-2.4.0-py311h5eee18b_1 
+  mkl_fft            pkgs/main/linux-64::mkl_fft-1.3.6-py311ha02d727_1 
+  mkl_random         pkgs/main/linux-64::mkl_random-1.2.2-py311ha02d727_1 
+  ncurses            pkgs/main/linux-64::ncurses-6.4-h6a678d5_0 
+  numpy              pkgs/main/linux-64::numpy-1.24.3-py311h08b1b3b_1 
+  numpy-base         pkgs/main/linux-64::numpy-base-1.24.3-py311hf175353_1 
+  openssl            pkgs/main/linux-64::openssl-1.1.1t-h7f8727e_0 
+  pip                pkgs/main/linux-64::pip-23.0.1-py311h06a4308_0 
+  python             pkgs/main/linux-64::python-3.11.3-h7a1cb2a_0 
+  readline           pkgs/main/linux-64::readline-8.2-h5eee18b_0 
+  setuptools         pkgs/main/linux-64::setuptools-66.0.0-py311h06a4308_0 
+  sqlite             pkgs/main/linux-64::sqlite-3.41.2-h5eee18b_0 
+  tbb                pkgs/main/linux-64::tbb-2021.8.0-hdb19cb5_0 
+  tk                 pkgs/main/linux-64::tk-8.6.12-h1ccaba5_0 
+  tzdata             pkgs/main/noarch::tzdata-2023c-h04d1e81_0 
+  wheel              pkgs/main/linux-64::wheel-0.38.4-py311h06a4308_0 
+  xz                 pkgs/main/linux-64::xz-5.4.2-h5eee18b_0 
+  zlib               pkgs/main/linux-64::zlib-1.2.13-h5eee18b_0 
+
+
+Proceed ([y]/n)? 
+
+
+Downloading and Extracting Packages
+biopython-1.78       | 2.7 MB    |                                   |   0% 
+mkl_fft-1.3.6        | 217 KB    |                                   |   0% [A
+
+mkl-2023.1.0         | 171.5 MB  |                                   |   0% [A[A
+
+
+numpy-1.24.3         | 11 KB     |                                   |   0% [A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   |                                   |   0% [A[A[A[A
+
+
+
+
+mkl_random-1.2.2     | 291 KB    |                                   |   0% [A[A[A[A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    |                                   |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+setuptools-66.0.0    | 1.6 MB    |                                   |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+mkl-service-2.4.0    | 54 KB     |                                   |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    |                                   |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+blas-1.0             | 6 KB      |                                   |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    |                                   |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   |                                   |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+wheel-0.38.4         | 79 KB     |                                   |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+numpy-1.24.3         | 11 KB     | ################################# | 100% [A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   |                                   |   0% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  |                                   |   0% [A[A
+mkl_fft-1.3.6        | 217 KB    | ##4                               |   7% [A
+
+
+numpy-1.24.3         | 11 KB     | ################################# | 100% [A[A[A
+
+
+
+
+mkl_random-1.2.2     | 291 KB    | #8                                |   5% [A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  |                                   |   0% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | 1                                 |   1% [A[A[A[A
+mkl_fft-1.3.6        | 217 KB    | #################                 |  52% [A
+mkl_fft-1.3.6        | 217 KB    | ################################# | 100% [A
+
+mkl-2023.1.0         | 171.5 MB  |                                   |   0% [A[A
+
+
+
+
+mkl_random-1.2.2     | 291 KB    | ##################1               |  55% [A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | 4                                 |   1% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | 1                                 |   0% [A[A
+
+
+
+
+mkl_random-1.2.2     | 291 KB    | #########################4        |  77% [A[A[A[A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    |                                   |   0% [A[A[A[A[A[Abiopython-1.78       | 2.7 MB    | 1                                 |   1% 
+
+
+
+python-3.11.3        | 32.6 MB   | #                                 |   3% [A[A[A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | 5                                 |   2% [A[A[A[A[A[A
+
+
+
+
+mkl_random-1.2.2     | 291 KB    | ################################# | 100% [A[A[A[A[A
+
+
+
+
+mkl_random-1.2.2     | 291 KB    | ################################# | 100% [A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | 1                                 |   1% [A[Abiopython-1.78       | 2.7 MB    | #1                                |   4% 
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | #2                                |   4% [A[A[A[A[A[A
+
+
+
+
+
+
+setuptools-66.0.0    | 1.6 MB    | 3                                 |   1% [A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | 2                                 |   1% [A[Abiopython-1.78       | 2.7 MB    | #9                                |   6% 
+
+
+
+python-3.11.3        | 32.6 MB   | #6                                |   5% [A[A[A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | #9                                |   6% [A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ##5                               |   8% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | 3                                 |   1% [A[A
+
+
+
+
+
+
+setuptools-66.0.0    | 1.6 MB    | ##2                               |   7% [A[A[A[A[A[A[Abiopython-1.78       | 2.7 MB    | ###2                              |  10% 
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ##9                               |   9% [A[A[A[A[A[Abiopython-1.78       | 2.7 MB    | ####                              |  12% 
+
+
+
+python-3.11.3        | 32.6 MB   | ##9                               |   9% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | 3                                 |   1% [A[A
+
+
+
+
+
+
+setuptools-66.0.0    | 1.6 MB    | #####5                            |  17% [A[A[A[A[A[A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ####3                             |  13% [A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ###3                              |  10% [A[A[A[A
+
+
+
+
+
+
+setuptools-66.0.0    | 1.6 MB    | #######8                          |  24% [A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | 4                                 |   1% [A[Abiopython-1.78       | 2.7 MB    | ####8                             |  15% 
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | #####                             |  15% [A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ###7                              |  11% [A[A[A[Abiopython-1.78       | 2.7 MB    | #####6                            |  17% 
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | #####7                            |  17% [A[A[A[A[A[A
+
+
+
+
+
+
+setuptools-66.0.0    | 1.6 MB    | #########7                        |  30% [A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ####                              |  12% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | 4                                 |   1% [A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ######5                           |  20% [A[A[A[A[A[A
+
+
+
+
+
+
+setuptools-66.0.0    | 1.6 MB    | ###########7                      |  36% [A[A[A[A[A[A[Abiopython-1.78       | 2.7 MB    | ######3                           |  19% 
+
+
+
+python-3.11.3        | 32.6 MB   | ####4                             |  13% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | 5                                 |   2% [A[Abiopython-1.78       | 2.7 MB    | ######9                           |  21% 
+
+
+
+
+
+
+setuptools-66.0.0    | 1.6 MB    | #############3                    |  41% [A[A[A[A[A[A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | #######5                          |  23% [A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ####8                             |  15% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | 6                                 |   2% [A[A
+
+
+
+
+
+
+setuptools-66.0.0    | 1.6 MB    | ###############3                  |  46% [A[A[A[A[A[A[Abiopython-1.78       | 2.7 MB    | #######9                          |  24% 
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ########2                         |  25% [A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | #####1                            |  16% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | 6                                 |   2% [A[Abiopython-1.78       | 2.7 MB    | #########1                        |  28% 
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | #########1                        |  28% [A[A[A[A[A[A
+
+
+
+
+
+
+setuptools-66.0.0    | 1.6 MB    | ################9                 |  51% [A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | #####4                            |  17% [A[A[A[Abiopython-1.78       | 2.7 MB    | #########8                        |  30% 
+
+mkl-2023.1.0         | 171.5 MB  | 6                                 |   2% [A[A
+
+
+
+
+
+
+setuptools-66.0.0    | 1.6 MB    | ##################5               |  56% [A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | #####8                            |  18% [A[A[A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | #########9                        |  30% [A[A[A[A[A[Abiopython-1.78       | 2.7 MB    | ##########6                       |  32% 
+
+mkl-2023.1.0         | 171.5 MB  | 7                                 |   2% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ######1                           |  19% [A[A[A[A
+
+
+
+
+
+
+setuptools-66.0.0    | 1.6 MB    | ####################5             |  62% [A[A[A[A[A[A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ##########5                       |  32% [A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ######5                           |  20% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | 7                                 |   2% [A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ###########3                      |  34% [A[A[A[A[A[Abiopython-1.78       | 2.7 MB    | ###########4                      |  35% 
+
+
+
+
+
+
+setuptools-66.0.0    | 1.6 MB    | ######################1           |  67% [A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | 8                                 |   3% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ######8                           |  21% [A[A[A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ############                      |  36% [A[A[A[A[A[Abiopython-1.78       | 2.7 MB    | ############7                     |  39% 
+
+
+
+
+
+
+setuptools-66.0.0    | 1.6 MB    | ########################4         |  74% [A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | 8                                 |   3% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | #######2                          |  22% [A[A[A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | #############2                    |  40% [A[A[A[A[A[Abiopython-1.78       | 2.7 MB    | ##############3                   |  43% 
+
+mkl-2023.1.0         | 171.5 MB  | 9                                 |   3% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | #######7                          |  23% [A[A[A[A
+
+
+
+
+
+
+setuptools-66.0.0    | 1.6 MB    | ###########################7      |  84% [A[A[A[A[A[A[Abiopython-1.78       | 2.7 MB    | ###############2                  |  46% 
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ##############                    |  42% [A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ########1                         |  25% [A[A[A[A
+
+
+
+
+
+
+setuptools-66.0.0    | 1.6 MB    | ##############################3   |  92% [A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | 9                                 |   3% [A[Abiopython-1.78       | 2.7 MB    | ################2                 |  49% 
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ##############7                   |  45% [A[A[A[A[A[A
+
+
+
+
+
+
+setuptools-66.0.0    | 1.6 MB    | ################################2 |  98% [A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ########5                         |  26% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | 9                                 |   3% [A[Abiopython-1.78       | 2.7 MB    | #################2                |  52% 
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ###############4                  |  47% [A[A[A[A[A[A
+
+
+
+
+
+
+
+mkl-service-2.4.0    | 54 KB     | #########6                        |  29% [A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | #########                         |  27% [A[A[A[Abiopython-1.78       | 2.7 MB    | ##################2               |  55% 
+
+mkl-2023.1.0         | 171.5 MB  | #                                 |   3% [A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ################1                 |  49% [A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | #########4                        |  29% [A[A[A[A
+
+
+
+
+
+
+
+mkl-service-2.4.0    | 54 KB     | ################################# | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+mkl-service-2.4.0    | 54 KB     | ################################# | 100% [A[A[A[A[A[A[A[Abiopython-1.78       | 2.7 MB    | ###################5              |  59% 
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | 1                                 |   1% [A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #                                 |   3% [A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ################8                 |  51% [A[A[A[A[A[A
+
+
+
+
+
+
+setuptools-66.0.0    | 1.6 MB    | ################################# | 100% [A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | #########8                        |  30% [A[A[A[Abiopython-1.78       | 2.7 MB    | ####################7             |  63% 
+
+mkl-2023.1.0         | 171.5 MB  | #                                 |   3% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ##########1                       |  31% [A[A[A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | 7                                 |   2% [A[A[A[A[A[A[A[A[Abiopython-1.78       | 2.7 MB    | #####################6            |  66% 
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | #################5                |  53% [A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ##########5                       |  32% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #                                 |   3% [A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ##################3               |  56% [A[A[A[A[A[Abiopython-1.78       | 2.7 MB    | #######################           |  70% 
+
+mkl-2023.1.0         | 171.5 MB  | #1                                |   3% [A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | ##8                               |   8% [A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ##########8                       |  33% [A[A[A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ###################1              |  58% [A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #1                                |   3% [A[Abiopython-1.78       | 2.7 MB    | ########################9         |  76% 
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | ####2                             |  13% [A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ###########6                      |  35% [A[A[A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ###################7              |  60% [A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ############                      |  36% [A[A[A[Abiopython-1.78       | 2.7 MB    | ##########################3       |  80% 
+
+mkl-2023.1.0         | 171.5 MB  | #1                                |   4% [A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ####################5             |  62% [A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ############3                     |  37% [A[A[A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | #####2                            |  16% [A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #2                                |   4% [A[Abiopython-1.78       | 2.7 MB    | ###########################4      |  83% 
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | #####################5            |  65% [A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #2                                |   4% [A[Abiopython-1.78       | 2.7 MB    | #############################     |  88% 
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | ######9                           |  21% [A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ############9                     |  39% [A[A[A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ######################2           |  68% [A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #2                                |   4% [A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | #######8                          |  24% [A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | #############4                    |  41% [A[A[A[Abiopython-1.78       | 2.7 MB    | ##############################2   |  92% 
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ######################9           |  69% [A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #3                                |   4% [A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | ########7                         |  27% [A[A[A[A[A[A[A[A[Abiopython-1.78       | 2.7 MB    | ###############################5  |  96% 
+
+
+
+python-3.11.3        | 32.6 MB   | #############8                    |  42% [A[A[A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | #######################5          |  71% [A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #3                                |   4% [A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | #########7                        |  29% [A[A[A[A[A[A[A[A[Abiopython-1.78       | 2.7 MB    | ################################7 |  99% 
+
+mkl-2023.1.0         | 171.5 MB  | #3                                |   4% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ##############2                   |  43% [A[A[A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ########################2         |  73% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | ##########6                       |  32% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+blas-1.0             | 6 KB      | ################################# | 100% [A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #4                                |   4% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ##############7                   |  45% [A[A[A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ########################7         |  75% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+blas-1.0             | 6 KB      | ################################# | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    | 3                                 |   1% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | ###########5                      |  35% [A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #4                                |   4% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ###############1                  |  46% [A[A[A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | #########################3        |  77% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    | ##1                               |   7% [A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #4                                |   5% [A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ##########################        |  79% [A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ###############5                  |  47% [A[A[A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | ############5                     |  38% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    | ####                              |  12% [A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #5                                |   5% [A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ##########################5       |  81% [A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ################                  |  49% [A[A[A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | #############8                    |  42% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    | #####9                            |  18% [A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #5                                |   5% [A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ###########################1      |  82% [A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ################4                 |  50% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    | #######8                          |  24% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | ##############7                   |  45% [A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #6                                |   5% [A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ###########################7      |  84% [A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ################8                 |  51% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    | #########3                        |  28% [A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #6                                |   5% [A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | ###############6                  |  48% [A[A[A[A[A[A[A[A[Abiopython-1.78       | 2.7 MB    | ################################# | 100% 
+
+
+
+
+
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    | ##########9                       |  33% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ############################3     |  86% [A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | #################1                |  52% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #7                                |   5% [A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | ################6                 |  50% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    | #############1                    |  40% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | #################6                |  53% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #8                                |   5% [A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | #############################     |  88% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | #################5                |  53% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    | ###############6                  |  47% [A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #8                                |   6% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ##################                |  55% [A[A[A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | #############################6    |  90% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    | #################8                |  54% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | ##################4               |  56% [A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ##################3               |  56% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #9                                |   6% [A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ##############################1   |  91% [A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #9                                |   6% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ##################7               |  57% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    | ####################              |  61% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ##############################6   |  93% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | ###################4              |  59% [A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##                                |   6% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ###################               |  58% [A[A[A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | ####################3             |  62% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    | ######################5           |  68% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ###############################1  |  95% [A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##1                               |   6% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ###################3              |  59% [A[A[A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | #####################2            |  65% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ###############################6  |  96% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    | #########################         |  76% [A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##2                               |   7% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ###################6              |  60% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    | ###########################5      |  83% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ################################3 |  98% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | ######################            |  67% [A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##2                               |   7% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ####################              |  61% [A[A[A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ################################9 | 100% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    | #############################4    |  89% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | ######################7           |  69% [A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ####################3             |  62% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##3                               |   7% [A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   |                                   |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    | ###############################2  |  95% [A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##4                               |   7% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ####################6             |  63% [A[A[A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | #######################5          |  71% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | 2                                 |   1% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##4                               |   7% [A[A
+
+
+
+
+
+
+
+
+
+
+
+
+wheel-0.38.4         | 79 KB     | ######6                           |  20% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | #####################             |  64% [A[A[A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | ########################2         |  74% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | 5                                 |   2% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##5                               |   8% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | #####################3            |  65% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | 8                                 |   3% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | #########################         |  76% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    | ################################# | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##5                               |   8% [A[A
+
+
+
+
+
+
+
+
+
+
+
+
+wheel-0.38.4         | 79 KB     | ################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+wheel-0.38.4         | 79 KB     | ################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | #2                                |   4% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | #####################6            |  66% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##6                               |   8% [A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | #########################7        |  78% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | #5                                |   5% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | #####################9            |  67% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##7                               |   8% [A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | ##########################3       |  80% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | #9                                |   6% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ######################2           |  67% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##7                               |   8% [A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | ##########################8       |  82% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ##2                               |   7% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ######################5           |  68% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##8                               |   9% [A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ##7                               |   8% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | ###########################6      |  84% [A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ######################8           |  69% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##8                               |   9% [A[A
+
+
+
+
+
+numpy-base-1.24.3    | 7.2 MB    | ################################# | 100% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ###1                              |  10% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | ############################2     |  85% [A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | #######################1          |  70% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##9                               |   9% [A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ###6                              |  11% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##9                               |   9% [A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | #############################1    |  88% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ###9                              |  12% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | #######################4          |  71% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###                               |   9% [A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ####4                             |  13% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | #############################8    |  91% [A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | #######################7          |  72% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###1                              |   9% [A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ####8                             |  15% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ########################          |  73% [A[A[A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | ##############################4   |  92% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | #####3                            |  16% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###1                              |  10% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ########################3         |  74% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | #####8                            |  18% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###2                              |  10% [A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | ###############################1  |  95% [A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ########################5         |  74% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ######3                           |  19% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###2                              |  10% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ########################8         |  75% [A[A[A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | ###############################7  |  96% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ######7                           |  21% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###3                              |  10% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | #########################1        |  76% [A[A[A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | ################################8 | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | #######2                          |  22% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###3                              |  10% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | #########################3        |  77% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | #######9                          |  24% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###4                              |  10% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | #########################6        |  78% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ########4                         |  26% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###4                              |  11% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | #########################9        |  79% [A[A[A[A
+
+
+
+
+
+
+
+
+pip-23.0.1           | 2.8 MB    | ################################# | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ########9                         |  27% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ##########################2       |  80% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###5                              |  11% [A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | #########5                        |  29% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ##########################5       |  81% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###5                              |  11% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ##########################8       |  81% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ##########1                       |  31% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###6                              |  11% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ###########################2      |  82% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###6                              |  11% [A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ##########7                       |  33% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###7                              |  11% [A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ###########2                      |  34% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ###########################6      |  84% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###7                              |  12% [A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ###########8                      |  36% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ############################      |  85% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ############3                     |  37% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###8                              |  12% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ############################3     |  86% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ############8                     |  39% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###8                              |  12% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ############################6     |  87% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | #############5                    |  41% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###9                              |  12% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ############################9     |  88% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ##############                    |  43% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###9                              |  12% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | #############################2    |  89% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ##############6                   |  44% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####                              |  12% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | #############################6    |  90% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ###############1                  |  46% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####                              |  12% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | #############################9    |  91% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####1                             |  13% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####2                             |  13% [A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ###############7                  |  48% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####2                             |  13% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ##############################2   |  92% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ################3                 |  50% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####3                             |  13% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ##############################5   |  93% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####3                             |  13% [A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ################8                 |  51% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ###############################   |  94% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####4                             |  13% [A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | #################6                |  53% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ###############################3  |  95% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ##################2               |  55% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####5                             |  14% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ###############################7  |  96% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####5                             |  14% [A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ###################               |  58% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ################################2 |  98% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ###################7              |  60% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####6                             |  14% [A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ################################5 |  99% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####6                             |  14% [A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ####################2             |  62% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ################################8 | 100% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####7                             |  14% [A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | #####################6            |  66% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ######################5           |  68% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####8                             |  15% [A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | #######################6          |  72% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####8                             |  15% [A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ########################7         |  75% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####9                             |  15% [A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | #########################8        |  78% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####9                             |  15% [A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ##########################9       |  82% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #####                             |  15% [A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ############################2     |  86% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #####                             |  15% [A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | #############################6    |  90% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #####1                            |  16% [A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ##############################7   |  93% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+python-3.11.3        | 32.6 MB   | ################################# | 100% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #####1                            |  16% [A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ###############################8  |  96% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #####2                            |  16% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #####3                            |  16% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #####3                            |  16% [A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.1 MB   | ################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #####4                            |  16% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #####4                            |  17% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #####5                            |  17% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #####6                            |  17% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #####7                            |  17% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #####8                            |  18% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #####9                            |  18% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ######                            |  18% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ######1                           |  19% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ######3                           |  19% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ######5                           |  20% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ######7                           |  20% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ######9                           |  21% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #######1                          |  22% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #######3                          |  22% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #######4                          |  23% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #######6                          |  23% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #######8                          |  24% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #######9                          |  24% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ########1                         |  25% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ########3                         |  25% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ########4                         |  26% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ########6                         |  26% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ########7                         |  27% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ########9                         |  27% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #########                         |  28% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #########2                        |  28% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #########3                        |  28% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #########5                        |  29% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #########7                        |  30% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #########9                        |  30% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##########1                       |  31% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##########3                       |  31% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##########4                       |  32% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##########6                       |  32% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##########8                       |  33% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###########                       |  33% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###########1                      |  34% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###########3                      |  34% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###########5                      |  35% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###########6                      |  35% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###########8                      |  36% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ############                      |  37% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ############2                     |  37% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ############3                     |  38% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ############5                     |  38% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ############6                     |  38% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ############8                     |  39% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ############9                     |  39% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #############1                    |  40% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #############2                    |  40% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #############4                    |  41% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #############5                    |  41% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #############7                    |  42% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #############8                    |  42% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##############                    |  42% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##############1                   |  43% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##############3                   |  43% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##############4                   |  44% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##############6                   |  44% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##############7                   |  45% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##############9                   |  45% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###############1                  |  46% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###############3                  |  46% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###############4                  |  47% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###############7                  |  48% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###############8                  |  48% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ################                  |  49% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ################2                 |  49% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ################3                 |  50% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ################5                 |  50% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ################6                 |  51% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ################8                 |  51% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ################9                 |  51% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #################1                |  52% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #################2                |  52% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #################4                |  53% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #################5                |  53% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #################7                |  54% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #################8                |  54% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #################9                |  54% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##################1               |  55% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##################3               |  56% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##################5               |  56% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##################6               |  57% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##################9               |  57% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###################1              |  58% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###################2              |  58% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###################3              |  59% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###################5              |  59% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###################6              |  60% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###################8              |  60% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###################9              |  60% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####################1             |  61% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####################2             |  61% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####################4             |  62% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####################5             |  62% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####################6             |  63% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####################8             |  63% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####################9             |  64% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #####################1            |  64% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #####################3            |  65% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #####################5            |  65% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #####################7            |  66% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #####################9            |  66% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ######################            |  67% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ######################3           |  68% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ######################4           |  68% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ######################6           |  69% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ######################8           |  69% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ######################9           |  70% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #######################1          |  70% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #######################2          |  71% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #######################4          |  71% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #######################6          |  72% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #######################8          |  72% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #######################9          |  73% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ########################1         |  73% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ########################2         |  74% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ########################4         |  74% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ########################5         |  75% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ########################7         |  75% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ########################9         |  76% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #########################1        |  76% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #########################3        |  77% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #########################4        |  77% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #########################6        |  78% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #########################7        |  78% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #########################9        |  79% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##########################        |  79% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##########################2       |  79% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##########################3       |  80% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##########################5       |  80% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##########################6       |  81% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##########################8       |  81% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###########################       |  82% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###########################2      |  83% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###########################5      |  83% [A[A
+
+
+mkl-2023.1.0         | 171.5 MB  | ###########################6      |  84% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###########################8      |  84% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ############################      |  85% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ############################2     |  86% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ############################4     |  86% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ############################6     |  87% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ############################7     |  87% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ############################9     |  88% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #############################     |  88% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #############################2    |  89% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #############################4    |  89% [A[A
+
+
+mkl-2023.1.0         | 171.5 MB  | #############################5    |  90% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #############################7    |  90% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #############################8    |  91% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##############################    |  91% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##############################2   |  92% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##############################3   |  92% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##############################5   |  93% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##############################7   |  93% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##############################9   |  94% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###############################   |  94% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###############################2  |  95% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###############################3  |  95% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###############################5  |  96% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###############################6  |  96% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###############################8  |  96% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###############################9  |  97% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ################################1 |  97% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ################################2 |  98% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ################################4 |  98% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ################################5 |  99% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ################################7 |  99% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ################################9 | 100% [A[A
+
+
+mkl-2023.1.0         | 171.5 MB  | ################################# | 100% [A[A                                                                            
+                                                                            [A
+
+                                                                            [A[A
+
+
+                                                                            [A[A[A
+
+
+
+                                                                            [A[A[A[A
+
+
+
+
+                                                                            [A[A[A[A[A
+
+
+
+
+
+                                                                            [A[A[A[A[A[A
+
+
+
+
+
+
+                                                                            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                                            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                                            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                                            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                                            [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                                            [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                            [A[A[A[A[A[A[A[A[A[A[A[A[A
+Preparing transaction: \ | / - \ done
+Verifying transaction: / - \ | / - \ | / - \ | / - \ | / - \ | / done
+Executing transaction: \ | / - \ | / - \ | / done
+#
+# To activate this environment, use
+#
+#     $ conda activate snowflakes
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+[?2004h(base) ]0;ujjwal@TIGER03687: ~[01;32mujjwal@TIGER03687[00m:[01;34m~[00m$ 
+[?2004l[?2004h(base) ]0;ujjwal@TIGER03687: ~[01;32mujjwal@TIGER03687[00m:[01;34m~[00m$ 
+[?2004l[?2004h(base) ]0;ujjwal@TIGER03687: ~[01;32mujjwal@TIGER03687[00m:[01;34m~[00m$ 
+[?2004l[?2004h(base) ]0;ujjwal@TIGER03687: ~[01;32mujjwal@TIGER03687[00m:[01;34m~[00m$ conda activate snowflakes
+[?2004l[?2004h(snowflakes) ]0;ujjwal@TIGER03687: ~[01;32mujjwal@TIGER03687[00m:[01;34m~[00m$ conda info --envs
+[?2004l# conda environments:
+#
+base                     /home/ujjwal/miniconda3
+snowflakes            *  /home/ujjwal/miniconda3/envs/snowflakes
+
+[?2004h(snowflakes) ]0;ujjwal@TIGER03687: ~[01;32mujjwal@TIGER03687[00m:[01;34m~[00m$ [7mconda create --name snakes python=3.9[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconda create --name snakes python=3.9
+[?2004lCollecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - done
+Solving environment: | done
+
+## Package Plan ##
+
+  environment location: /home/ujjwal/miniconda3/envs/snakes
+
+  added / updated specs:
+    - python=3.9
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    pip-23.0.1                 |   py39h06a4308_0         2.5 MB
+    python-3.9.16              |       h7a1cb2a_2        25.1 MB
+    setuptools-66.0.0          |   py39h06a4308_0         1.2 MB
+    wheel-0.38.4               |   py39h06a4308_0          64 KB
+    ------------------------------------------------------------
+                                           Total:        28.8 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main 
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu 
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2023.01.10-h06a4308_0 
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.38-h1181459_1 
+  libffi             pkgs/main/linux-64::libffi-3.4.4-h6a678d5_0 
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1 
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1 
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1 
+  ncurses            pkgs/main/linux-64::ncurses-6.4-h6a678d5_0 
+  openssl            pkgs/main/linux-64::openssl-1.1.1t-h7f8727e_0 
+  pip                pkgs/main/linux-64::pip-23.0.1-py39h06a4308_0 
+  python             pkgs/main/linux-64::python-3.9.16-h7a1cb2a_2 
+  readline           pkgs/main/linux-64::readline-8.2-h5eee18b_0 
+  setuptools         pkgs/main/linux-64::setuptools-66.0.0-py39h06a4308_0 
+  sqlite             pkgs/main/linux-64::sqlite-3.41.2-h5eee18b_0 
+  tk                 pkgs/main/linux-64::tk-8.6.12-h1ccaba5_0 
+  tzdata             pkgs/main/noarch::tzdata-2023c-h04d1e81_0 
+  wheel              pkgs/main/linux-64::wheel-0.38.4-py39h06a4308_0 
+  xz                 pkgs/main/linux-64::xz-5.4.2-h5eee18b_0 
+  zlib               pkgs/main/linux-64::zlib-1.2.13-h5eee18b_0 
+
+
+Proceed ([y]/n)? 
+
+
+Downloading and Extracting Packages
+pip-23.0.1           | 2.5 MB    |                                   |   0% 
+python-3.9.16        | 25.1 MB   |                                   |   0% [A
+
+setuptools-66.0.0    | 1.2 MB    |                                   |   0% [A[A
+
+
+wheel-0.38.4         | 64 KB     |                                   |   0% [A[A[A
+
+
+wheel-0.38.4         | 64 KB     | ########3                         |  25% [A[A[A
+python-3.9.16        | 25.1 MB   |                                   |   0% [Apip-23.0.1           | 2.5 MB    | 4                                 |   1% 
+
+setuptools-66.0.0    | 1.2 MB    | 4                                 |   1% [A[A
+
+
+wheel-0.38.4         | 64 KB     | ################################# | 100% [A[A[Apip-23.0.1           | 2.5 MB    | ###4                              |  11% 
+python-3.9.16        | 25.1 MB   | 3                                 |   1% [Apip-23.0.1           | 2.5 MB    | ######7                           |  20% 
+python-3.9.16        | 25.1 MB   | 8                                 |   3% [Apip-23.0.1           | 2.5 MB    | ###############2                  |  46% 
+python-3.9.16        | 25.1 MB   | #4                                |   4% [A
+
+setuptools-66.0.0    | 1.2 MB    | ##1                               |   7% [A[Apip-23.0.1           | 2.5 MB    | #####################2            |  64% 
+python-3.9.16        | 25.1 MB   | #9                                |   6% [A
+
+setuptools-66.0.0    | 1.2 MB    | ######1                           |  19% [A[Apip-23.0.1           | 2.5 MB    | ##########################3       |  80% 
+python-3.9.16        | 25.1 MB   | ##3                               |   7% [A
+
+setuptools-66.0.0    | 1.2 MB    | #########2                        |  28% [A[Apip-23.0.1           | 2.5 MB    | ###############################4  |  95% 
+python-3.9.16        | 25.1 MB   | ##6                               |   8% [A
+
+setuptools-66.0.0    | 1.2 MB    | ##############9                   |  45% [A[A
+python-3.9.16        | 25.1 MB   | ###                               |   9% [A
+
+setuptools-66.0.0    | 1.2 MB    | ###################7              |  60% [A[A
+python-3.9.16        | 25.1 MB   | ###4                              |  11% [A
+
+setuptools-66.0.0    | 1.2 MB    | ##########################8       |  81% [A[A
+python-3.9.16        | 25.1 MB   | ###8                              |  12% [A
+python-3.9.16        | 25.1 MB   | ####2                             |  13% [A
+python-3.9.16        | 25.1 MB   | ####6                             |  14% [A
+python-3.9.16        | 25.1 MB   | #####                             |  15% [A
+python-3.9.16        | 25.1 MB   | #####4                            |  16% [A
+python-3.9.16        | 25.1 MB   | #####8                            |  18% [Apip-23.0.1           | 2.5 MB    | ################################# | 100% 
+
+setuptools-66.0.0    | 1.2 MB    | ################################# | 100% [A[A
+
+setuptools-66.0.0    | 1.2 MB    | ################################# | 100% [A[A
+python-3.9.16        | 25.1 MB   | ######4                           |  19% [A
+python-3.9.16        | 25.1 MB   | ######9                           |  21% [A
+python-3.9.16        | 25.1 MB   | #######6                          |  23% [A
+python-3.9.16        | 25.1 MB   | ########5                         |  26% [A
+python-3.9.16        | 25.1 MB   | #########4                        |  29% [A
+python-3.9.16        | 25.1 MB   | ##########5                       |  32% [A
+python-3.9.16        | 25.1 MB   | ###########6                      |  35% [A
+python-3.9.16        | 25.1 MB   | ############5                     |  38% [A
+python-3.9.16        | 25.1 MB   | ##############                    |  42% [A
+python-3.9.16        | 25.1 MB   | ###############4                  |  47% [A
+python-3.9.16        | 25.1 MB   | ################9                 |  51% [A
+python-3.9.16        | 25.1 MB   | ##################1               |  55% [A
+python-3.9.16        | 25.1 MB   | ###################3              |  59% [A
+python-3.9.16        | 25.1 MB   | ####################6             |  63% [A
+python-3.9.16        | 25.1 MB   | #####################8            |  66% [A
+python-3.9.16        | 25.1 MB   | ######################9           |  70% [A
+python-3.9.16        | 25.1 MB   | ########################1         |  73% [A
+python-3.9.16        | 25.1 MB   | #########################1        |  76% [A
+python-3.9.16        | 25.1 MB   | ##########################3       |  80% [A
+python-3.9.16        | 25.1 MB   | ###########################3      |  83% [A
+python-3.9.16        | 25.1 MB   | ############################4     |  86% [A
+python-3.9.16        | 25.1 MB   | #############################4    |  89% [A
+python-3.9.16        | 25.1 MB   | ##############################4   |  92% [A
+python-3.9.16        | 25.1 MB   | ###############################5  |  95% [A
+python-3.9.16        | 25.1 MB   | ################################5 |  99% [A
+python-3.9.16        | 25.1 MB   | ################################# | 100% [A                                                                            
+                                                                            [A
+
+                                                                            [A[A
+
+
+                                                                            [A[A[A
+Preparing transaction: - \ | done
+Verifying transaction: - \ | / - \ | / - \ | / done
+Executing transaction: \ | / - \ | done
+#
+# To activate this environment, use
+#
+#     $ conda activate snakes
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+[?2004h(snowflakes) ]0;ujjwal@TIGER03687: ~[01;32mujjwal@TIGER03687[00m:[01;34m~[00m$ [7mconda info --envs[27mconda info --envs
+[?2004l# conda environments:
+#
+base                     /home/ujjwal/miniconda3
+snakes                   /home/ujjwal/miniconda3/envs/snakes
+snowflakes            *  /home/ujjwal/miniconda3/envs/snowflakes
+
+[?2004h(snowflakes) ]0;ujjwal@TIGER03687: ~[01;32mujjwal@TIGER03687[00m:[01;34m~[00m$ [7mconda search beautifulsoup4[27mconda search beautifulsoup4
+[?2004lLoading channels: - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - done
+# Name                       Version           Build  Channel             
+beautifulsoup4                 4.6.0          py27_1  pkgs/main           
+beautifulsoup4                 4.6.0  py27h3f86ba9_1  pkgs/main           
+beautifulsoup4                 4.6.0  py35h442a8c9_1  pkgs/main           
+beautifulsoup4                 4.6.0          py36_1  pkgs/main           
+beautifulsoup4                 4.6.0  py36h49b8c8c_1  pkgs/main           
+beautifulsoup4                 4.6.0          py37_1  pkgs/main           
+beautifulsoup4                 4.6.1          py27_0  pkgs/main           
+beautifulsoup4                 4.6.1          py35_0  pkgs/main           
+beautifulsoup4                 4.6.1          py36_0  pkgs/main           
+beautifulsoup4                 4.6.1          py37_0  pkgs/main           
+beautifulsoup4                 4.6.3          py27_0  pkgs/main           
+beautifulsoup4                 4.6.3          py35_0  pkgs/main           
+beautifulsoup4                 4.6.3          py36_0  pkgs/main           
+beautifulsoup4                 4.6.3          py37_0  pkgs/main           
+beautifulsoup4                 4.7.1          py27_1  pkgs/main           
+beautifulsoup4                 4.7.1          py36_1  pkgs/main           
+beautifulsoup4                 4.7.1          py37_1  pkgs/main           
+beautifulsoup4                 4.8.0          py27_0  pkgs/main           
+beautifulsoup4                 4.8.0          py36_0  pkgs/main           
+beautifulsoup4                 4.8.0          py37_0  pkgs/main           
+beautifulsoup4                 4.8.1          py27_0  pkgs/main           
+beautifulsoup4                 4.8.1          py36_0  pkgs/main           
+beautifulsoup4                 4.8.1          py37_0  pkgs/main           
+beautifulsoup4                 4.8.1          py38_0  pkgs/main           
+beautifulsoup4                 4.8.2          py27_0  pkgs/main           
+beautifulsoup4                 4.8.2          py36_0  pkgs/main           
+beautifulsoup4                 4.8.2          py37_0  pkgs/main           
+beautifulsoup4                 4.8.2          py38_0  pkgs/main           
+beautifulsoup4                 4.9.0          py36_0  pkgs/main           
+beautifulsoup4                 4.9.0          py37_0  pkgs/main           
+beautifulsoup4                 4.9.0          py38_0  pkgs/main           
+beautifulsoup4                 4.9.1          py36_0  pkgs/main           
+beautifulsoup4                 4.9.1  py36h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1          py37_0  pkgs/main           
+beautifulsoup4                 4.9.1  py37h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1          py38_0  pkgs/main           
+beautifulsoup4                 4.9.1  py38h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1  py39h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.3    pyha847dfd_0  pkgs/main           
+beautifulsoup4                 4.9.3    pyhb0f4dca_0  pkgs/main           
+beautifulsoup4                4.10.0    pyh06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1 py310h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1 py311h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py37h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py38h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py39h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.0 py310h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.0 py311h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.0  py38h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.0  py39h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.2 py310h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.2 py311h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.2  py38h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.2  py39h06a4308_0  pkgs/main           
+[?2004h(snowflakes) ]0;ujjwal@TIGER03687: ~[01;32mujjwal@TIGER03687[00m:[01;34m~[00m$ [7mconda install beautifulsoup4[27mconda install beautifulsoup4
+[?2004lCollecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ done
+Solving environment: / - done
+
+## Package Plan ##
+
+  environment location: /home/ujjwal/miniconda3/envs/snowflakes
+
+  added / updated specs:
+    - beautifulsoup4
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    beautifulsoup4-4.12.2      |  py311h06a4308_0         268 KB
+    soupsieve-2.4              |  py311h06a4308_0          93 KB
+    ------------------------------------------------------------
+                                           Total:         361 KB
+
+The following NEW packages will be INSTALLED:
+
+  beautifulsoup4     pkgs/main/linux-64::beautifulsoup4-4.12.2-py311h06a4308_0 
+  soupsieve          pkgs/main/linux-64::soupsieve-2.4-py311h06a4308_0 
+
+
+Proceed ([y]/n)? 
+
+
+Downloading and Extracting Packages
+beautifulsoup4-4.12. | 268 KB    |                                   |   0% 
+soupsieve-2.4        | 93 KB     |                                   |   0% [Abeautifulsoup4-4.12. | 268 KB    | #9                                |   6% beautifulsoup4-4.12. | 268 KB    | ################################# | 100% beautifulsoup4-4.12. | 268 KB    | ################################# | 100% 
+soupsieve-2.4        | 93 KB     | #####6                            |  17% [A
+soupsieve-2.4        | 93 KB     | ################################# | 100% [A
+soupsieve-2.4        | 93 KB     | ################################# | 100% [A                                                                            
+                                                                            [A
+Preparing transaction: | done
+Verifying transaction: - done
+Executing transaction: | done
+[?2004h(snowflakes) ]0;ujjwal@TIGER03687: ~[01;32mujjwal@TIGER03687[00m:[01;34m~[00m$ [7mconda list[27mconda list
+[?2004l# packages in environment at /home/ujjwal/miniconda3/envs/snowflakes:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             5.1                       1_gnu  
+beautifulsoup4            4.12.2          py311h06a4308_0  
+biopython                 1.78            py311h5eee18b_0  
+blas                      1.0                         mkl  
+bzip2                     1.0.8                h7b6447c_0  
+ca-certificates           2023.01.10           h06a4308_0  
+intel-openmp              2023.1.0         hdb19cb5_46305  
+ld_impl_linux-64          2.38                 h1181459_1  
+libffi                    3.4.4                h6a678d5_0  
+libgcc-ng                 11.2.0               h1234567_1  
+libgomp                   11.2.0               h1234567_1  
+libstdcxx-ng              11.2.0               h1234567_1  
+libuuid                   1.41.5               h5eee18b_0  
+mkl                       2023.1.0         h6d00ec8_46342  
+mkl-service               2.4.0           py311h5eee18b_1  
+mkl_fft                   1.3.6           py311ha02d727_1  
+mkl_random                1.2.2           py311ha02d727_1  
+ncurses                   6.4                  h6a678d5_0  
+numpy                     1.24.3          py311h08b1b3b_1  
+numpy-base                1.24.3          py311hf175353_1  
+openssl                   1.1.1t               h7f8727e_0  
+pip                       23.0.1          py311h06a4308_0  
+python                    3.11.3               h7a1cb2a_0  
+readline                  8.2                  h5eee18b_0  
+setuptools                66.0.0          py311h06a4308_0  
+soupsieve                 2.4             py311h06a4308_0  
+sqlite                    3.41.2               h5eee18b_0  
+tbb                       2021.8.0             hdb19cb5_0  
+tk                        8.6.12               h1ccaba5_0  
+tzdata                    2023c                h04d1e81_0  
+wheel                     0.38.4          py311h06a4308_0  
+xz                        5.4.2                h5eee18b_0  
+zlib                      1.2.13               h5eee18b_0  
+[?2004h(snowflakes) ]0;ujjwal@TIGER03687: ~[01;32mujjwal@TIGER03687[00m:[01;34m~[00m$ clear
+[?2004l[H[2J[3J[?2004h(snowflakes) ]0;ujjwal@TIGER03687: ~[01;32mujjwal@TIGER03687[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2023-05-12 08:04:41+05:30 [COMMAND_EXIT_CODE="0"]

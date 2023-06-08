@@ -1,0 +1,280 @@
+Script started on 2023-05-12 07:54:11+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="76" LINES="39"]
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1[00m$ ls
+[?2004l[0m[01;34mgit_lessons[0m  [01;34mmylibgit[0m  [01;34mshell-lesson-data[0m
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1[00m$ wget -p [7mhttps://repo.anacond[27m[7ma[27m[7m.com/miniconda/Miniconda3-latest-Linux-x86_64.sh[27m[A[C[C[C[C[C[C[Chttps://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://repo.anaconda.[1Pcom/miniconda/Miniconda3-latest-Linux-x86_64.sh[A[C[C[C[C[C[C https://repo.anaconda.c[1Pom/miniconda/Miniconda3-latest-Linux-x86_64.sh[A]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1[00m$ [C[C[C[C[Chttps://repo.anaconda.co[1Pm/miniconda/Miniconda3-latest-Linux-x86_64.sh[A]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1[00m$ [C[C[C[C
+
+[?2004l--2023-05-12 07:57:05--  https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+Resolving repo.anaconda.com (repo.anaconda.com)... 104.16.131.3, 2606:4700::6810:8303, 2606:4700::6810:8203
+Connecting to repo.anaconda.com (repo.anaconda.com)|104.16.131.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 73134376 (70M) [application/x-sh]
+Saving to: ‘Miniconda3-latest-Linux-x86_64.sh’
+
+         Miniconda   0%[                 ]       0  --.-KB/s                       Miniconda3   1%[                 ]   1.38M  6.89MB/s                      Miniconda3-   4%[                 ]   2.85M  6.68MB/s                     Miniconda3-l   5%[                 ]   3.80M  5.83MB/s                    Miniconda3-la   8%[>                ]   6.02M  7.07MB/s                   Miniconda3-lat  10%[>                ]   7.24M  6.86MB/s                  Miniconda3-late  12%[=>               ]   8.66M  6.90MB/s                 Miniconda3-lates  14%[=>               ]   9.88M  6.78MB/s                Miniconda3-latest  15%[=>               ]  11.12M  6.71MB/s               Miniconda3-latest-  17%[==>              ]  12.37M  6.66MB/s               iniconda3-latest-L  19%[==>              ]  13.62M  6.61MB/s               niconda3-latest-Li  21%[==>              ]  14.99M  6.62MB/s               iconda3-latest-Lin  23%[===>             ]  16.65M  6.75MB/s               conda3-latest-Linu  26%[===>             ]  18.66M  6.99MB/s               onda3-latest-Linux  27%[===>             ]  19.52M  6.71MB/s               nda3-latest-Linux-  30%[====>            ]  21.22M  6.81MB/s    eta 7s     da3-latest-Linux-x  33%[====>            ]  23.33M  7.26MB/s    eta 7s     a3-latest-Linux-x8  35%[=====>           ]  24.83M  7.22MB/s    eta 7s     3-latest-Linux-x86  37%[=====>           ]  26.30M  7.22MB/s    eta 7s     -latest-Linux-x86_  39%[=====>           ]  27.76M  7.10MB/s    eta 7s     latest-Linux-x86_6  42%[======>          ]  29.69M  7.17MB/s    eta 6s     atest-Linux-x86_64  44%[======>          ]  31.16M  7.24MB/s    eta 6s     test-Linux-x86_64.  46%[======>          ]  32.66M  7.37MB/s    eta 6s     est-Linux-x86_64.s  48%[=======>         ]  34.13M  7.42MB/s    eta 6s     st-Linux-x86_64.sh  51%[=======>         ]  35.58M  7.46MB/s    eta 6s     t-Linux-x86_64.sh   52%[=======>         ]  36.83M  7.50MB/s    eta 5s     -Linux-x86_64.sh    54%[========>        ]  38.33M  7.55MB/s    eta 5s     Linux-x86_64.sh     57%[========>        ]  39.90M  7.57MB/s    eta 5s     inux-x86_64.sh      59%[=========>       ]  41.49M  7.41MB/s    eta 5s     nux-x86_64.sh       61%[=========>       ]  43.08M  7.53MB/s    eta 5s     ux-x86_64.sh        64%[=========>       ]  44.67M  7.74MB/s    eta 3s     x-x86_64.sh         65%[==========>      ]  45.63M  7.14MB/s    eta 3s     -x86_64.sh          68%[==========>      ]  47.82M  7.35MB/s    eta 3s     x86_64.sh           70%[===========>     ]  49.46M  7.39MB/s    eta 3s     86_64.sh            73%[===========>     ]  50.96M  7.39MB/s    eta 3s     6_64.sh             75%[===========>     ]  52.46M  6.96MB/s    eta 2s     _64.sh              77%[============>    ]  53.96M  6.96MB/s    eta 2s     64.sh               79%[============>    ]  55.22M  6.88MB/s    eta 2s     4.sh                80%[============>    ]  56.49M  6.87MB/s    eta 2s     .sh                 83%[=============>   ]  57.91M  6.81MB/s    eta 2s     sh                  85%[=============>   ]  59.60M  6.94MB/s    eta 1s     h                   87%[=============>   ]  61.35M  7.01MB/s    eta 1s                         90%[==============>  ]  62.91M  7.01MB/s    eta 1s                      M  91%[==============>  ]  64.01M  6.72MB/s    eta 1s                     Mi  94%[===============> ]  66.12M  7.05MB/s    eta 1s                    Min  96%[===============> ]  67.44M  6.86MB/s    eta 0s                   Mini  98%[===============> ]  68.90M  7.18MB/s    eta 0s     Miniconda3-latest- 100%[================>]  69.75M  7.02MB/s    in 9.8s    
+
+2023-05-12 07:57:15 (7.12 MB/s) - ‘Miniconda3-latest-Linux-x86_64.sh’ saved [73134376/73134376]
+
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1[00m$ ./mylibgit/[K[K[K[K[K[K[K[K[Kmin[K[K[K[K[Ksh mi[K[K[K[K[Kbahs[K[Ksh mylibgit/[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+[?2004lMiniconda3-latest-Linux-x86_64.sh  [0m[01;34mgit_lessons[0m  [01;34mmylibgit[0m  [01;34mshell-lesson-data[0m
+[?2004h]0;ujjwal@TIGER03687: ~/tiger_assignments/module_1[01;32mujjwal@TIGER03687[00m:[01;34m~/tiger_assignments/module_1[00m$ sh Miniconda3-latest-Linux-x86_64.sh 
+[?2004l
+Welcome to Miniconda3 py310_23.3.1-0
+
+In order to continue the installation process, please review the license
+agreement.
+Please, press ENTER to continue
+>>> 
+======================================
+End User License Agreement - Miniconda
+======================================
+
+Copyright 2015-2023, Anaconda, Inc.
+
+All rights reserved under the 3-clause BSD License:
+
+This End User License Agreement (the "Agreement") is a legal agreement betwe
+en you and Anaconda, Inc. ("Anaconda") and governs your use of Miniconda.
+
+Subject to the terms of this Agreement, Anaconda hereby grants you a non-exc
+lusive, non-transferable license to:
+
+  * Install and use the Miniconda,
+  * Modify and create derivative works of sample source code delivered in Mi
+niconda subject to the Terms of Service for the Repository (as defined herei
+nafter) available at https://www.anaconda.com/terms-of-service, and
+  * Redistribute code files in source (if provided to you by Anaconda as sou
+rce) and binary forms, with or without modification subject to the requireme
+nts set forth below.
+
+Anaconda may, at its option, make available patches, workarounds or other up
+dates to Miniconda. Unless the updates are provided with their separate gove
+rning terms, they are deemed part of Miniconda licensed to you as provided i
+n this Agreement. This Agreement does not entitle you to any support for Min
+iconda.
+
+Anaconda reserves all rights not expressly granted to you in this Agreement.
+
+Redistribution and use in source and binary forms, with or without modificat
+ion, are permitted provided that the following conditions are met:
+
+  * Redistributions of source code must retain the above copyright notice, t
+his list of conditions and the following disclaimer.
+  * Redistributions in binary form must reproduce the above copyright notice
+, this list of conditions and the following disclaimer in the documentation 
+and/or other materials provided with the distribution.
+[7m--More--[27m  * Neither the name of Anaconda nor the names of its contributors may be us
+[7m--More--[27med to endorse or promote products derived from this software without specifi
+[7m--More--[27mc prior written permission.
+[7m--More--[27m[K
+[7m--More--[27mYou acknowledge that, as between you and Anaconda, Anaconda owns all right, 
+[7m--More--[27mtitle, and interest, including all intellectual property rights, in and to M
+[7m--More--[27miniconda and, with respect to third-party products distributed with or throu
+[7m--More--[27mgh Miniconda, the applicable third-party licensors own all right, title and 
+[7m--More--[27minterest, including all intellectual property rights, in and to such product
+[7m--More--[27ms. If you send or transmit any communications or materials to Anaconda sugge
+[7m--More--[27msting or recommending changes to the software or documentation, including wi
+[7m--More--[27mthout limitation, new features or functionality relating thereto, or any com
+[7m--More--[27mments, questions, suggestions or the like ("Feedback"), Anaconda is free to 
+[7m--More--[27muse such Feedback. You hereby assign to Anaconda all right, title, and inter
+[7m--More--[27mest in, and Anaconda is free to use, without any attribution or compensation
+[7m--More--[27m to any party, any ideas, know-how, concepts, techniques or other intellectu
+[7m--More--[27mal property rights contained in the Feedback, for any purpose whatsoever, al
+[7m--More--[27mthough Anaconda is not required to use any Feedback.
+[7m--More--[27m[K
+[7m--More--[27mDISCLAIMER
+[7m--More--[27m==========
+[7m--More--[27m[K
+[7m--More--[27mTHIS SOFTWARE IS PROVIDED BY ANACONDA AND ITS CONTRIBUTORS "AS IS" AND ANY E
+[7m--More--[27mXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WAR
+[7m--More--[27mRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIM
+[7m--More--[27mED. IN NO EVENT SHALL ANACONDA BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTA
+[7m--More--[27mL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED 
+[7m--More--[27mTO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFI
+[7m--More--[27mTS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+[7m--More--[27m WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTH
+[7m--More--[27mERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED 
+[7m--More--[27mOF THE POSSIBILITY OF SUCH DAMAGE.
+[7m--More--[27m[K
+[7m--More--[27mTO THE MAXIMUM EXTENT PERMITTED BY LAW, ANACONDA AND ITS AFFILIATES SHALL NO
+[7m--More--[27mT BE LIABLE FOR ANY SPECIAL, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL DAMAGES, 
+[7m--More--[27mOR ANY LOST PROFITS, LOSS OF USE, LOSS OF DATA OR LOSS OF GOODWILL, OR THE C
+[7m--More--[27mOSTS OF PROCURING SUBSTITUTE PRODUCTS, ARISING OUT OF OR IN CONNECTION WITH 
+[7m--More--[27mTHIS AGREEMENT OR THE USE OR PERFORMANCE OF MINICONDA, WHETHER SUCH LIABILIT
+[7m--More--[27mY ARISES FROM ANY CLAIM BASED UPON BREACH OF CONTRACT, BREACH OF WARRANTY, T
+[7m--More--[27mORT (INCLUDING NEGLIGENCE), PRODUCT LIABILITY OR ANY OTHER CAUSE OF ACTION O
+[7m--More--[27mR THEORY OF LIABILITY. IN NO EVENT WILL THE TOTAL CUMULATIVE LIABILITY OF AN
+[7m--More--[27mACONDA AND ITS AFFILIATES UNDER OR ARISING OUT OF THIS AGREEMENT EXCEED 10.0
+[7m--More--[27m0 U.S. DOLLARS.
+[7m--More--[27m[K
+[7m--More--[27mMiscellaneous
+[7m--More--[27m=============
+[7m--More--[27m[K
+[7m--More--[27mIf you want to terminate this Agreement, you may do so by discontinuing use 
+[7m--More--[27mof Miniconda. Anaconda may, at any time, terminate this Agreement and the li
+[7m--More--[27mcense granted hereunder if you fail to comply with any term of this Agreemen
+[7m--More--[27mt. Upon any termination of this Agreement, you agree to promptly discontinue
+[7m--More--[27m use of the Miniconda and destroy all copies in your possession or control. 
+[7m--More--[27mUpon any termination of this Agreement all provisions survive except for the
+[7m--More--[27m licenses granted to you.
+[7m--More--[27m[K
+[7m--More--[27mThis Agreement is governed by and construed in accordance with the internal 
+[7m--More--[27mlaws of the State of Texas without giving effect to any choice or conflict o
+[7m--More--[27mf law provision or rule that would require or permit the application of the 
+[7m--More--[27mlaws of any jurisdiction other than those of the State of Texas. Any legal s
+[7m--More--[27muit, action, or proceeding arising out of or related to this Agreement or th
+[7m--More--[27me licenses granted hereunder by you must be instituted exclusively in the fe
+[7m--More--[27mderal courts of the United States or the courts of the State of Texas in eac
+[7m--More--[27mh case located in Travis County, Texas, and you irrevocably submit to the ju
+[7m--More--[27mrisdiction of such courts in any such suit, action, or proceeding.
+[7m--More--[27m[K
+[7m--More--[27mNotice of Third Party Software Licenses
+[7m--More--[27m=======================================
+[7m--More--[27m[K
+[7m--More--[27mMiniconda provides access to a repository (the "Repository") which contains 
+[7m--More--[27msoftware packages or tools licensed on an open source basis from third parti
+[7m--More--[27mes and binary packages of these third party tools. These third party softwar
+[7m--More--[27me packages or tools are provided on an "as is" basis and are subject to thei
+[7m--More--[27mr respective license agreements as well as this Agreement and the Terms of S
+[7m--More--[27mervice for the Repository located at https://www.anaconda.com/terms-of-servi
+[7m--More--[27mce; provided, however, no restriction contained in the Terms of Service shal
+[7m--More--[27ml be construed so as to limit Your ability to download the packages containe
+[7m--More--[27md in Miniconda provided you comply with the license for each such package. T
+[7m--More--[27mhese licenses may be accessed from within the Miniconda software[1] or https
+[7m--More--[27m://www.anaconda.com/legal. Information regarding which license is applicable
+[7m--More--[27m is available from within many of the third party software packages and tool
+[7m--More--[27ms and at https://repo.anaconda.com/pkgs/main/ and https://repo.anaconda.com/
+[7m--More--[27mpkgs/r/. Anaconda reserves the right, in its sole discretion, to change whic
+[7m--More--[27mh third party tools are included in the Repository accessible through Minico
+[7m--More--[27mnda.[K
+[7m--More--[27m[K
+[7m--More--[27m[K
+[7m--More--[27mIntel Math Kernel Library
+[7m--More--[27m-------------------------
+[7m--More--[27m[K
+[7m--More--[27mMiniconda provides access to re-distributable, run-time, shared-library file
+[7m--More--[27ms from the Intel Math Kernel Library ("MKL binaries").
+[7m--More--[27m[K
+[7m--More--[27mCopyright 2018 Intel Corporation. License available at https://software.inte
+[7m--More--[27ml.com/en-us/license/intel-simplified-software-license (the "MKL License").
+[7m--More--[27m[K
+[7m--More--[27mYou may use and redistribute the MKL binaries, without modification, provide
+[7m--More--[27md the following conditions are met:
+[7m--More--[27m[K
+[7m--More--[27m  * Redistributions must reproduce the above copyright notice and the follow
+[7m--More--[27ming terms of use in the MKL binaries and in the documentation and/or other m
+[7m--More--[27materials provided with the distribution.
+[7m--More--[27m  * Neither the name of Intel nor the names of its suppliers may be used to 
+[7m--More--[27mendorse or promote products derived from the MKL binaries without specific p
+[7m--More--[27mrior written permission.
+[7m--More--[27m  * No reverse engineering, decompilation, or disassembly of the MKL binarie
+[7m--More--[27ms is permitted.
+[7m--More--[27m[K
+[7m--More--[27mYou are specifically authorized to use and redistribute the MKL binaries wit
+[7m--More--[27mh your installation of Miniconda subject to the terms set forth in the MKL L
+[7m--More--[27micense. You are also authorized to redistribute the MKL binaries with Minico
+[7m--More--[27mnda or in the Anaconda package that contains the MKL binaries. If needed, in
+[7m--More--[27mstructions for removing the MKL binaries after installation of Miniconda are
+[7m--More--[27m available at https://docs.anaconda.com.
+[7m--More--[27m[K
+[7m--More--[27mcuDNN Software
+[7m--More--[27m--------------
+[7m--More--[27m[K
+[7m--More--[27mMiniconda also provides access to cuDNN software binaries ("cuDNN binaries")
+[7m--More--[27m from NVIDIA Corporation. You are specifically authorized to use the cuDNN b
+[7m--More--[27minaries with your installation of Miniconda subject to your compliance with 
+[7m--More--[27mthe license agreement located at https://docs.nvidia.com/deeplearning/sdk/cu
+[7m--More--[27mdnn-sla/index.html. You are also authorized to redistribute the cuDNN binari
+[7m--More--[27mes with an Miniconda package that contains the cuDNN binaries. You can add o
+[7m--More--[27mr remove the cuDNN binaries utilizing the install and uninstall features in 
+[7m--More--[27mMiniconda.
+[7m--More--[27m[K
+[7m--More--[27mcuDNN binaries contain source code provided by NVIDIA Corporation.
+[7m--More--[27m[K
+[7m--More--[27mArm Performance Libraries
+[7m--More--[27m-------------------------
+[7m--More--[27m[K
+[7m--More--[27mArm Performance Libraries (Free Version): Anaconda provides access to softwa
+[7m--More--[27mre and related documentation from the Arm Performance Libraries ("Arm PL") p
+[7m--More--[27mrovided by Arm Limited. By installing or otherwise accessing the Arm PL, you
+[7m--More--[27m acknowledge and agree that use and distribution of the Arm PL is subject to
+[7m--More--[27m your compliance with the Arm PL end user license agreement located at: http
+[7m--More--[27ms://developer.arm.com/tools-and-software/server-and-hpc/downloads/arm-perfor
+[7m--More--[27mmance-libraries/eula.
+[7m--More--[27m[K
+[7m--More--[27mExport; Cryptography Notice
+[7m--More--[27m===========================
+[7m--More--[27m[K
+[7m--More--[27mYou must comply with all domestic and international export laws and regulati
+[7m--More--[27mons that apply to the software, which include restrictions on destinations, 
+[7m--More--[27mend users, and end use. Miniconda includes cryptographic software. The count
+[7m--More--[27mry in which you currently reside may have restrictions on the import, posses
+[7m--More--[27msion, use, and/or re-export to another country, of encryption software. BEFO
+[7m--More--[27mRE using any encryption software, please check your country's laws, regulati
+[7m--More--[27mons and policies concerning the import, possession, or use, and re-export of
+[7m--More--[27m encryption software, to see if this is permitted. See the Wassenaar Arrange
+[7m--More--[27mment http://www.wassenaar.org/ for more information.
+[7m--More--[27m[K
+[7m--More--[27mAnaconda has self-classified this software as Export Commodity Control Numbe
+[7m--More--[27mr (ECCN) EAR99, which includes mass market information security software usi
+[7m--More--[27mng or performing cryptographic functions with asymmetric algorithms. No lice
+[7m--More--[27mnse is required for export of this software to non-embargoed countries.
+[7m--More--[27m[K
+[7m--More--[27mThe Intel Math Kernel Library contained in Miniconda is classified by Intel 
+[7m--More--[27mas ECCN 5D992.c with no license required for export to non-embargoed countri
+[7m--More--[27mes.[K
+[7m--More--[27m[K
+[7m--More--[27mThe following packages listed on https://www.anaconda.com/cryptography are i
+[7m--More--[27mncluded in the Repository accessible through Miniconda that relate to crypto
+[7m--More--[27mgraphy.[K
+[7m--More--[27m[K
+[7m--More--[27mLast updated March 21, 2022
+[7m--More--[27m[K
+
+Do you accept the license terms? [yes|no]
+[no] >>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> yes
+
+Miniconda3 will now be installed into this location:
+/home/ujjwal/miniconda3
+
+  - Press ENTER to confirm the location
+  - Press CTRL-C to abort the installation
+  - Or specify a different location below
+
+[/home/ujjwal/miniconda3] >>> 
+PREFIX=/home/ujjwal/miniconda3
+Unpacking payload ...
+  0%|                                                | 0/49 [00:00<?, ?it/s]Extracting : idna-3.4-py310h06a4308_0.conda:   0%|   | 0/49 [00:00<?, ?it/s]Extracting : six-1.16.0-pyhd3eb1b0_1.conda:   2%| | 1/49 [00:00<00:02, 23.94Extracting : libuuid-1.41.5-h5eee18b_0.conda:   4%| | 2/49 [00:00<00:00, 47.Extracting : pycparser-2.21-pyhd3eb1b0_0.conda:   6%| | 3/49 [00:00<00:00, 7Extracting : xz-5.2.10-h5eee18b_1.conda:   8%| | 4/49 [00:00<00:01, 40.85it/Extracting : tk-8.6.12-h1ccaba5_0.conda:  10%| | 5/49 [00:00<00:02, 21.75it/Extracting : tk-8.6.12-h1ccaba5_0.conda:  12%| | 6/49 [00:00<00:01, 26.07it/Extracting : wheel-0.38.4-py310h06a4308_0.conda:  12%| | 6/49 [00:00<00:01, Extracting : conda-package-handling-2.0.2-py310h06a4308_0.conda:  14%|▏| 7/4Extracting : ca-certificates-2023.01.10-h06a4308_0.conda:  16%|▏| 8/49 [00:0Extracting : readline-8.2-h5eee18b_0.conda:  18%|▏| 9/49 [00:00<00:01, 26.07Extracting : brotlipy-0.7.0-py310h7f8727e_1002.conda:  20%|▏| 10/49 [00:00<0Extracting : pycosat-0.6.4-py310h5eee18b_0.conda:  22%|▏| 11/49 [00:00<00:01Extracting : conda-content-trust-0.1.3-py310h06a4308_0.conda:  24%|▏| 12/49 Extracting : requests-2.28.1-py310h06a4308_1.conda:  27%|▎| 13/49 [00:00<00:Extracting : sqlite-3.41.1-h5eee18b_0.conda:  29%|▎| 14/49 [00:00<00:01, 26.Extracting : libgomp-11.2.0-h1234567_1.conda:  31%|▎| 15/49 [00:00<00:01, 26Extracting : cffi-1.15.1-py310h5eee18b_3.conda:  33%|▎| 16/49 [00:00<00:01, Extracting : ld_impl_linux-64-2.38-h1181459_1.conda:  35%|▎| 17/49 [00:00<00Extracting : libffi-3.4.2-h6a678d5_6.conda:  37%|▎| 18/49 [00:00<00:01, 26.0Extracting : python-3.10.10-h7a1cb2a_2.conda:  39%|▍| 19/49 [00:00<00:01, 26Extracting : python-3.10.10-h7a1cb2a_2.conda:  41%|▍| 20/49 [00:00<00:01, 22Extracting : tzdata-2023c-h04d1e81_0.conda:  41%|▍| 20/49 [00:00<00:01, 22.7Extracting : ruamel.yaml-0.17.21-py310h5eee18b_0.conda:  43%|▍| 21/49 [00:00Extracting : _openmp_mutex-5.1-1_gnu.conda:  45%|▍| 22/49 [00:00<00:01, 22.7Extracting : conda-23.3.1-py310h06a4308_0.conda:  47%|▍| 23/49 [00:00<00:01,Extracting : boltons-23.0.0-py310h06a4308_0.conda:  49%|▍| 24/49 [00:00<00:0Extracting : pip-23.0.1-py310h06a4308_0.conda:  51%|▌| 25/49 [00:00<00:01, 2Extracting : toolz-0.12.0-py310h06a4308_0.conda:  53%|▌| 26/49 [00:00<00:01,Extracting : packaging-23.0-py310h06a4308_0.conda:  55%|▌| 27/49 [00:00<00:0Extracting : ruamel.yaml.clib-0.2.6-py310h5eee18b_1.conda:  57%|▌| 28/49 [00Extracting : urllib3-1.26.15-py310h06a4308_0.conda:  59%|▌| 29/49 [00:00<00:Extracting : openssl-1.1.1t-h7f8727e_0.conda:  61%|▌| 30/49 [00:00<00:00, 22Extracting : zstandard-0.19.0-py310h5eee18b_0.conda:  63%|▋| 31/49 [00:00<00Extracting : _libgcc_mutex-0.1-main.conda:  65%|▋| 32/49 [00:00<00:00, 22.70Extracting : libstdcxx-ng-11.2.0-h1234567_1.conda:  67%
